@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1442.6387"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-719.297852 -705.896606 1442.638672 1399.601563"
+     height="1399.6016" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="3.0"
+              d="M 131.402054,-162.581451 C 198.772171,-82.007065 178.965759,139.909729 98.391380,207.279831"
+              class="id_anon0501-data_text id_arna0660-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 131.402054,-162.581451 C 143.613922,-34.595970 -30.046501,175.700104 -158.031982,187.911972"
+              class="id_anon0501-data_text id_bhch0565-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 131.402054,-162.581451 C 69.611969,-200.972717 34.513756,-351.244751 72.905022,-413.034821"
+              class="id_anon0501-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#7a8bad"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 131.402054,-162.581451 C 202.861664,-7.114025 76.849960,333.276550 -78.617462,404.736176"
+              class="id_anon0501-data_text id_long0500-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 131.402054,-162.581451 C 135.085739,-98.032867 43.788376,4.315557 -20.760216,7.999243"
+              class="id_anon0501-data_text id_nels0350-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 131.402054,-162.581451 C 73.387993,-127.442810 -66.341049,-161.755920 -101.479691,-219.769989"
+              class="id_anon0501-data_text id_oska0551-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 131.402054,-162.581451 C 251.733292,-48.112057 260.526062,304.088928 146.056656,424.420166"
+              class="id_anon0501-data_text id_plat0550-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 131.402054,-162.581451 C 293.626160,0.130283 292.894745,487.534058 130.183014,649.758179"
+              class="id_anon0501-data_text id_well0550-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 629.235901,227.603546 C 565.095215,229.995316 465.296509,137.371933 462.904724,73.231224"
+              class="id_arna0440-dos-data_text id_arna0440-linux-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 629.235901,227.603546 C 591.088745,171.104843 618.616028,29.135994 675.114746,-9.011180"
+              class="id_arna0440-dos-data_text id_arna0440-source-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 629.235901,227.603546 C 537.793152,141.621033 529.602844,-124.516853 615.585388,-215.959579"
+              class="id_arna0440-dos-data_text id_beck0500-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 462.904724,73.231224 C 527.045410,70.839447 626.844116,163.462845 629.235901,227.603546"
+              class="id_arna0440-linux-data_text id_arna0440-dos-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 462.904724,73.231224 C 476.559845,59.576103 476.559845,86.886345 462.904724,73.231224"
+              class="id_arna0440-linux-data_text" stroke-opacity="1.0"
+              stroke="#00caff"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 462.904724,73.231224 C 488.898254,14.340740 616.224243,-35.004704 675.114746,-9.011180"
+              class="id_arna0440-linux-data_text id_arna0440-source-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 462.904724,73.231224 C 435.602692,-15.143076 527.211060,-188.657547 615.585388,-215.959579"
+              class="id_arna0440-linux-data_text id_beck0500-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 675.114746,-9.011180 C 713.261902,47.487534 685.734619,189.456375 629.235901,227.603546"
+              class="id_arna0440-source-data_text id_arna0440-dos-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 675.114746,-9.011180 C 649.121216,49.879307 521.795227,99.224747 462.904724,73.231224"
+              class="id_arna0440-source-data_text id_arna0440-linux-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 675.114746,-9.011180 C 688.769897,-22.666302 688.769897,4.643942 675.114746,-9.011180"
+              class="id_arna0440-source-data_text" stroke-opacity="1.0"
+              stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 675.114746,-9.011180 C 621.819214,-38.494987 586.101563,-162.664032 615.585388,-215.959579"
+              class="id_arna0440-source-data_text id_beck0500-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 98.391380,207.279831 C 31.021263,126.705452 50.827667,-95.211334 131.402054,-162.581451"
+              class="id_arna0660-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 98.391380,207.279831 C 92.362030,142.166565 180.987915,35.452621 246.101181,29.423275"
+              class="id_arna0660-data_text id_arna0770-data_text"
+              stroke-opacity="1.0" stroke="#d8867f"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 98.391380,207.279831 C 102.480881,282.172882 -3.724426,400.646667 -78.617462,404.736176"
+              class="id_arna0660-data_text id_long0500-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 98.391380,207.279831 C 23.543930,57.515430 135.919373,-279.402313 285.683777,-354.249756"
+              class="id_arna0660-data_text id_munk0430-data_text"
+              stroke-opacity="1.0" stroke="#d8867f"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 98.391380,207.279831 C 151.352509,241.174850 179.951675,371.459045 146.056656,424.420166"
+              class="id_arna0660-data_text id_plat0550-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 246.101181,29.423275 C 252.130524,94.536545 163.504654,201.250488 98.391380,207.279831"
+              class="id_arna0770-data_text id_arna0660-data_text"
+              stroke-opacity="1.0" stroke="#d8867f"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 246.101181,29.423275 C 238.920380,-39.055965 330.868073,-152.545990 399.347321,-159.726776"
+              class="id_arna0770-data_text id_mcdo0551-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 246.101181,29.423275 C 177.283081,-55.227856 201.032623,-285.431671 285.683777,-354.249756"
+              class="id_arna0770-data_text id_munk0430-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 246.101181,29.423275 C 209.204636,-114.600311 369.895203,-385.980499 513.918762,-422.877045"
+              class="id_arna0770-data_text id_wood0430-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 615.585388,-215.959579 C 707.028137,-129.977051 715.218445,136.160828 629.235901,227.603546"
+              class="id_beck0500-data_text id_arna0440-dos-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 615.585388,-215.959579 C 642.887451,-127.585281 551.279053,45.929192 462.904724,73.231224"
+              class="id_beck0500-data_text id_arna0440-linux-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 615.585388,-215.959579 C 668.880981,-186.475769 704.598511,-62.306732 675.114746,-9.011180"
+              class="id_beck0500-data_text id_arna0440-source-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 615.585388,-215.959579 C 716.190613,-7.452023 554.337219,456.217133 345.829681,556.822388"
+              class="id_beck0500-data_text id_kenw0550-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 615.585388,-215.959579 C 583.584351,-161.465393 453.841492,-127.725723 399.347321,-159.726776"
+              class="id_beck0500-data_text id_mcdo0551-data_text"
+              stroke-opacity="1.0" stroke="#75a88a"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 615.585388,-215.959579 C 659.300842,-61.768639 493.587677,235.090973 339.396729,278.806458"
+              class="id_beck0500-data_text id_plot0350-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 615.585388,-215.959579 C 723.340820,-68.670334 664.040161,313.896698 516.750916,421.652130"
+              class="id_beck0500-data_text id_vane0560-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -158.031982,187.911972 C -170.243866,59.926491 3.416573,-150.369568 131.402054,-162.581451"
+              class="id_bhch0565-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -158.031982,187.911972 C -98.784241,215.393906 -51.135525,345.488434 -78.617462,404.736176"
+              class="id_bhch0565-data_text id_long0500-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -158.031982,187.911972 C -218.892426,229.169296 -372.069092,199.764587 -413.326385,138.904144"
+              class="id_bhch0565-data_text id_malm1000-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -158.031982,187.911972 C -8.019737,222.638214 164.909241,499.745911 130.183014,649.758179"
+              class="id_bhch0565-data_text id_well0550-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -497.485352,458.304047 C -377.345032,415.004150 -132.184830,530.264771 -88.884972,650.405090"
+              class="id_cox_0350-data_text id_CROW0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -497.485352,458.304047 C -560.506226,441.253510 -629.461853,321.146332 -612.411316,258.125397"
+              class="id_cox_0350-data_text id_daim0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -497.485352,458.304047 C -616.299072,408.156250 -719.297852,154.713974 -669.150024,35.900284"
+              class="id_cox_0350-data_text id_kenn0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -497.485352,458.304047 C -482.967377,400.071716 -373.841949,334.500153 -315.609619,349.018127"
+              class="id_cox_0350-data_text id_lumm0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -497.485352,458.304047 C -601.932007,344.278625 -587.563965,16.570499 -473.538574,-87.876190"
+              class="id_cox_0350-data_text id_pohl0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -497.485352,458.304047 C -430.123260,444.825928 -308.862885,525.651917 -295.384766,593.014038"
+              class="id_cox_0350-data_text id_russ0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -88.884972,650.405090 C -209.025253,693.704956 -454.185486,578.444336 -497.485352,458.304047"
+              class="id_CROW0000-data_text id_cox_0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -88.884972,650.405090 C -194.507294,635.472595 -330.542084,454.640472 -315.609619,349.018127"
+              class="id_CROW0000-data_text id_lumm0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -88.884972,650.405090 C -141.663147,680.226807 -265.563019,645.792236 -295.384766,593.014038"
+              class="id_CROW0000-data_text id_russ0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -612.411316,258.125397 C -549.390442,275.175934 -480.434784,395.283112 -497.485352,458.304047"
+              class="id_daim0350-data_text id_cox_0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -612.411316,258.125397 C -668.204041,225.028122 -702.247314,91.693047 -669.150024,35.900284"
+              class="id_daim0350-data_text id_kenn0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -612.411316,258.125397 C -534.872437,216.943619 -356.791412,271.479218 -315.609619,349.018127"
+              class="id_daim0350-data_text id_lumm0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 121.341805,-645.309082 C 158.109299,-589.166870 129.047226,-449.802338 72.905022,-413.034821"
+              class="id_ekma0350-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 121.341805,-645.309082 C 72.810516,-604.815247 -60.727146,-616.871460 -101.220963,-665.402771"
+              class="id_ekma0350-data_text id_kine0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 121.341805,-645.309082 C 105.765930,-550.978455 -59.093872,-432.846222 -153.424530,-448.422119"
+              class="id_ekma0350-data_text id_wood0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 72.905022,-413.034821 C 134.695099,-374.643555 169.793320,-224.371521 131.402054,-162.581451"
+              class="id_gill0350-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#7a8bad"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 72.905022,-413.034821 C 36.137524,-469.177032 65.199600,-608.541626 121.341805,-645.309082"
+              class="id_gill0350-data_text id_ekma0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 72.905022,-413.034821 C -12.393764,-428.683228 -116.869354,-580.104004 -101.220963,-665.402771"
+              class="id_gill0350-data_text id_kine0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 72.905022,-413.034821 C 206.154724,-219.176117 115.241234,271.486481 -78.617462,404.736176"
+              class="id_gill0350-data_text id_long0500-data_text"
+              stroke-opacity="1.0" stroke="#7a8bad"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 72.905022,-413.034821 C 127.217781,-443.833557 254.885040,-408.562531 285.683777,-354.249756"
+              class="id_gill0350-data_text id_munk0430-data_text"
+              stroke-opacity="1.0" stroke="#8c8b43"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 72.905022,-413.034821 C 20.561647,-374.846375 -115.236076,-396.078735 -153.424530,-448.422119"
+              class="id_gill0350-data_text id_wood0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 72.905022,-413.034821 C 159.139328,-503.206024 423.747559,-509.111359 513.918762,-422.877045"
+              class="id_gill0350-data_text id_wood0430-data_text"
+              stroke-opacity="1.0" stroke="#8c8b43"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 72.905022,-413.034821 C 91.900177,-498.897034 249.186218,-599.197632 335.048431,-580.202454"
+              class="id_gill0350-data_text id_wood043b-data_text"
+              stroke-opacity="1.0" stroke="#8c8b43"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -513.939941,-424.692596 C -453.004272,-433.921478 -347.757477,-356.361298 -338.528595,-295.425629"
+              class="id_goet0350-data_text id_kint0350-data_text"
+              stroke-opacity="1.0" stroke="#ff5c81"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -513.939941,-424.692596 C -390.463348,-466.200134 -142.987213,-343.246582 -101.479691,-219.769989"
+              class="id_goet0350-data_text id_oska0551-data_text"
+              stroke-opacity="1.0" stroke="#e271b5"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -513.939941,-424.692596 C -509.942810,-490.617889 -405.059204,-583.510132 -339.133911,-579.513000"
+              class="id_goet0350-data_text id_ticm0350-data_text"
+              stroke-opacity="1.0" stroke="#ff5c81"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -513.939941,-424.692596 C -446.582764,-501.541595 -230.273529,-515.779297 -153.424530,-448.422119"
+              class="id_goet0350-data_text id_wood0350-data_text"
+              stroke-opacity="1.0" stroke="#967679"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -669.150024,35.900284 C -550.336304,86.048096 -447.337555,339.490356 -497.485352,458.304047"
+              class="id_kenn0000-data_text id_cox_0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -669.150024,35.900284 C -613.357300,68.997566 -579.314026,202.332626 -612.411316,258.125397"
+              class="id_kenn0000-data_text id_daim0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -669.150024,35.900284 C -535.818359,27.815773 -323.694122,215.686493 -315.609619,349.018127"
+              class="id_kenn0000-data_text id_lumm0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -669.150024,35.900284 C -654.783020,-27.977304 -537.416199,-102.243187 -473.538574,-87.876190"
+              class="id_kenn0000-data_text id_pohl0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -669.150024,35.900284 C -714.411316,-21.596579 -696.058044,-175.733856 -638.561157,-220.995178"
+              class="id_kenn0000-data_text id_whin0450-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 345.829681,556.822388 C 245.224411,348.314850 407.077820,-115.354309 615.585388,-215.959579"
+              class="id_kenw0550-data_text id_beck0500-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 345.829681,556.822388 C 367.212097,535.439941 367.212097,578.204834 345.829681,556.822388"
+              class="id_kenw0550-data_text" stroke-opacity="1.0"
+              stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 345.829681,556.822388 C 213.223358,402.809021 245.333954,-27.120461 399.347321,-159.726776"
+              class="id_kenw0550-data_text id_mcdo0551-data_text"
+              stroke-opacity="1.0" stroke="#75a88a"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 345.829681,556.822388 C 288.939911,502.505798 285.080139,335.696228 339.396729,278.806458"
+              class="id_kenw0550-data_text id_plot0350-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 345.829681,556.822388 C 352.979858,495.604095 455.532623,414.501953 516.750916,421.652130"
+              class="id_kenw0550-data_text id_vane0560-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -101.220963,-665.402771 C -52.689671,-705.896606 80.847992,-693.840393 121.341805,-645.309082"
+              class="id_kine0350-data_text id_ekma0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -101.220963,-665.402771 C -15.922176,-649.754395 88.553421,-498.333618 72.905022,-413.034821"
+              class="id_kine0350-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -101.220963,-665.402771 C -68.265549,-611.565918 -99.587677,-481.377533 -153.424530,-448.422119"
+              class="id_kine0350-data_text id_wood0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -338.528595,-295.425629 C -399.464264,-286.196747 -504.711060,-363.756927 -513.939941,-424.692596"
+              class="id_kint0350-data_text id_goet0350-data_text"
+              stroke-opacity="1.0" stroke="#ff5c81"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -338.528595,-295.425629 C -272.532532,-262.557983 -222.839966,-114.262421 -255.707611,-48.266376"
+              class="id_kint0350-data_text id_malm0350-data_text"
+              stroke-opacity="1.0" stroke="#e271b5"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -338.528595,-295.425629 C -395.467133,-352.122040 -395.830322,-522.574463 -339.133911,-579.513000"
+              class="id_kint0350-data_text id_ticm0350-data_text"
+              stroke-opacity="1.0" stroke="#ff5c81"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -338.528595,-295.425629 C -332.107086,-363.045746 -221.044647,-454.843628 -153.424530,-448.422119"
+              class="id_kint0350-data_text id_wood0350-data_text"
+              stroke-opacity="1.0" stroke="#967679"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -78.617462,404.736176 C -150.077087,249.268738 -24.065376,-91.121826 131.402054,-162.581451"
+              class="id_long0500-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -78.617462,404.736176 C -82.706963,329.843140 23.498344,211.369339 98.391380,207.279831"
+              class="id_long0500-data_text id_arna0660-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -78.617462,404.736176 C -137.865204,377.254242 -185.513916,247.159714 -158.031982,187.911972"
+              class="id_long0500-data_text id_bhch0565-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -78.617462,404.736176 C -211.867157,210.877472 -120.953674,-279.785126 72.905022,-413.034821"
+              class="id_long0500-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#7a8bad"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -78.617462,404.736176 C 1.382538,324.736176 1.382538,484.736176 -78.617462,404.736176"
+              class="id_long0500-data_text" stroke-opacity="1.0"
+              stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -78.617462,404.736176 C -146.393402,313.817352 -111.679054,75.775185 -20.760216,7.999243"
+              class="id_long0500-data_text id_nels0350-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -78.617462,404.736176 C -208.091156,284.407379 -221.808472,-90.296303 -101.479691,-219.769989"
+              class="id_long0500-data_text id_oska0551-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -78.617462,404.736176 C 12.147041,411.980469 137.427322,558.993713 130.183014,649.758179"
+              class="id_long0500-data_text id_well0550-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -315.609619,349.018127 C -330.127594,407.250458 -439.253021,472.822021 -497.485352,458.304047"
+              class="id_lumm0350-data_text id_cox_0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -315.609619,349.018127 C -209.987289,363.950592 -73.952515,544.782776 -88.884972,650.405090"
+              class="id_lumm0350-data_text id_CROW0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -315.609619,349.018127 C -393.148529,390.199921 -571.229492,335.664307 -612.411316,258.125397"
+              class="id_lumm0350-data_text id_daim0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -315.609619,349.018127 C -448.941254,357.102631 -661.065552,169.231934 -669.150024,35.900284"
+              class="id_lumm0350-data_text id_kenn0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -315.609619,349.018127 C -434.574280,293.225067 -529.331665,31.088459 -473.538574,-87.876190"
+              class="id_lumm0350-data_text id_pohl0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -315.609619,349.018127 C -262.765442,393.772339 -250.630569,540.169861 -295.384766,593.014038"
+              class="id_lumm0350-data_text id_russ0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -315.609619,349.018127 C -494.202576,299.605774 -687.973511,-42.402214 -638.561157,-220.995178"
+              class="id_lumm0350-data_text id_whin0450-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -255.707611,-48.266376 C -321.703674,-81.134033 -371.396240,-229.429581 -338.528595,-295.425629"
+              class="id_malm0350-data_text id_kint0350-data_text"
+              stroke-opacity="1.0" stroke="#e271b5"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -255.707611,-48.266376 C -249.797241,20.691484 -344.368530,132.993790 -413.326385,138.904144"
+              class="id_malm0350-data_text id_malm1000-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -255.707611,-48.266376 C -259.162750,-113.412674 -166.625992,-216.314850 -101.479691,-219.769989"
+              class="id_malm0350-data_text id_oska0551-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -413.326385,138.904144 C -352.465942,97.646820 -199.289307,127.051529 -158.031982,187.911972"
+              class="id_malm1000-data_text id_bhch0565-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -413.326385,138.904144 C -419.236755,69.946281 -324.665466,-42.356026 -255.707611,-48.266376"
+              class="id_malm1000-data_text id_malm0350-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -413.326385,138.904144 C -422.691895,4.799976 -235.583862,-210.404495 -101.479691,-219.769989"
+              class="id_malm1000-data_text id_oska0551-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 399.347321,-159.726776 C 406.528107,-91.247528 314.580414,22.242489 246.101181,29.423275"
+              class="id_mcdo0551-data_text id_arna0770-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 399.347321,-159.726776 C 431.348389,-214.220963 561.091187,-247.960632 615.585388,-215.959579"
+              class="id_mcdo0551-data_text id_beck0500-data_text"
+              stroke-opacity="1.0" stroke="#75a88a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 399.347321,-159.726776 C 531.953613,-5.713403 499.843048,424.216064 345.829681,556.822388"
+              class="id_mcdo0551-data_text id_kenw0550-data_text"
+              stroke-opacity="1.0" stroke="#75a88a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 285.683777,-354.249756 C 360.531219,-204.485352 248.155777,132.432388 98.391380,207.279831"
+              class="id_munk0430-data_text id_arna0660-data_text"
+              stroke-opacity="1.0" stroke="#d8867f"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 285.683777,-354.249756 C 354.501862,-269.598602 330.752319,-39.394817 246.101181,29.423275"
+              class="id_munk0430-data_text id_arna0770-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 285.683777,-354.249756 C 231.371002,-323.451019 103.703758,-358.722046 72.905022,-413.034821"
+              class="id_munk0430-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#8c8b43"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 285.683777,-354.249756 C 317.605316,-413.622223 454.546295,-454.798584 513.918762,-422.877045"
+              class="id_munk0430-data_text id_wood0430-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 285.683777,-354.249756 C 250.366165,-409.313232 279.984955,-544.884827 335.048431,-580.202454"
+              class="id_munk0430-data_text id_wood043b-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -20.760216,7.999243 C -24.443901,-56.549347 66.853470,-158.897766 131.402054,-162.581451"
+              class="id_nels0350-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -20.760216,7.999243 C 47.015724,98.918083 12.301376,336.960236 -78.617462,404.736176"
+              class="id_nels0350-data_text id_long0500-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -20.760216,7.999243 C -82.457962,-21.410704 -130.889633,-158.072250 -101.479691,-219.769989"
+              class="id_nels0350-data_text id_oska0551-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -101.479691,-219.769989 C -43.465630,-254.908630 96.263405,-220.595520 131.402054,-162.581451"
+              class="id_oska0551-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -101.479691,-219.769989 C -224.956268,-178.262466 -472.432404,-301.216003 -513.939941,-424.692596"
+              class="id_oska0551-data_text id_goet0350-data_text"
+              stroke-opacity="1.0" stroke="#e271b5"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -101.479691,-219.769989 C 27.993996,-99.441200 41.711327,275.262482 -78.617462,404.736176"
+              class="id_oska0551-data_text id_long0500-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -101.479691,-219.769989 C -98.024551,-154.623688 -190.561310,-51.721512 -255.707611,-48.266376"
+              class="id_oska0551-data_text id_malm0350-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -101.479691,-219.769989 C -92.114197,-85.665817 -279.222229,129.538651 -413.326385,138.904144"
+              class="id_oska0551-data_text id_malm1000-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -101.479691,-219.769989 C -39.781948,-190.360031 8.649731,-53.698494 -20.760216,7.999243"
+              class="id_oska0551-data_text id_nels0350-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -101.479691,-219.769989 C 76.865623,-140.439209 225.387421,246.074860 146.056656,424.420166"
+              class="id_oska0551-data_text id_plat0550-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 146.056656,424.420166 C 25.725418,309.950745 16.932663,-42.250217 131.402054,-162.581451"
+              class="id_plat0550-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 146.056656,424.420166 C 93.095535,390.525146 64.496368,260.240967 98.391380,207.279831"
+              class="id_plat0550-data_text id_arna0660-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 146.056656,424.420166 C -32.288658,345.089386 -180.810455,-41.424675 -101.479691,-219.769989"
+              class="id_plat0550-data_text id_oska0551-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 339.396729,278.806458 C 295.681244,124.615509 461.394440,-172.244110 615.585388,-215.959579"
+              class="id_plot0350-data_text id_beck0500-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 339.396729,278.806458 C 396.286499,333.123047 400.146271,499.932617 345.829681,556.822388"
+              class="id_plot0350-data_text id_kenw0550-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 339.396729,278.806458 C 356.676697,261.526489 356.676697,296.086426 339.396729,278.806458"
+              class="id_plot0350-data_text" stroke-opacity="1.0"
+              stroke="#00caff"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 339.396729,278.806458 C 403.436676,271.904755 509.849213,357.612183 516.750916,421.652130"
+              class="id_plot0350-data_text id_vane0560-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -473.538574,-87.876190 C -369.091888,26.149212 -383.459930,353.857361 -497.485352,458.304047"
+              class="id_pohl0350-data_text id_cox_0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -473.538574,-87.876190 C -487.905579,-23.998604 -605.272400,50.267281 -669.150024,35.900284"
+              class="id_pohl0350-data_text id_kenn0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -473.538574,-87.876190 C -354.573914,-32.083118 -259.816528,230.053497 -315.609619,349.018127"
+              class="id_pohl0350-data_text id_lumm0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -473.538574,-87.876190 C -444.916962,-116.497787 -444.916962,-59.254589 -473.538574,-87.876190"
+              class="id_pohl0350-data_text" stroke-opacity="1.0"
+              stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -473.538574,-87.876190 C -533.166870,-81.495468 -632.180420,-161.366867 -638.561157,-220.995178"
+              class="id_pohl0350-data_text id_whin0450-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -295.384766,593.014038 C -362.746857,606.492126 -484.007233,525.666138 -497.485352,458.304047"
+              class="id_russ0000-data_text id_cox_0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -295.384766,593.014038 C -242.606598,563.192261 -118.706726,597.626953 -88.884972,650.405090"
+              class="id_russ0000-data_text id_CROW0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -295.384766,593.014038 C -348.228943,548.259827 -360.363831,401.862305 -315.609619,349.018127"
+              class="id_russ0000-data_text id_lumm0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -295.384766,593.014038 C -275.348358,572.977661 -275.348358,613.050415 -295.384766,593.014038"
+              class="id_russ0000-data_text" stroke-opacity="1.0"
+              stroke="#5fc613"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -339.133911,-579.513000 C -343.131042,-513.587769 -448.014648,-420.695465 -513.939941,-424.692596"
+              class="id_ticm0350-data_text id_goet0350-data_text"
+              stroke-opacity="1.0" stroke="#ff5c81"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -339.133911,-579.513000 C -282.195374,-522.816650 -281.832184,-352.364166 -338.528595,-295.425629"
+              class="id_ticm0350-data_text id_kint0350-data_text"
+              stroke-opacity="1.0" stroke="#ff5c81"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -339.133911,-579.513000 C -321.993378,-596.653564 -321.993378,-562.372437 -339.133911,-579.513000"
+              class="id_ticm0350-data_text" stroke-opacity="1.0"
+              stroke="#ff5c81"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -339.133911,-579.513000 C -275.773865,-590.436646 -164.348236,-511.782166 -153.424530,-448.422119"
+              class="id_ticm0350-data_text id_wood0350-data_text"
+              stroke-opacity="1.0" stroke="#967679"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 516.750916,421.652130 C 408.995483,274.362885 468.296143,-108.204132 615.585388,-215.959579"
+              class="id_vane0560-data_text id_beck0500-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 516.750916,421.652130 C 509.600739,482.870422 407.047974,563.972595 345.829681,556.822388"
+              class="id_vane0560-data_text id_kenw0550-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 516.750916,421.652130 C 452.710968,428.553833 346.298431,342.846405 339.396729,278.806458"
+              class="id_vane0560-data_text id_plot0350-data_text"
+              stroke-opacity="1.0" stroke="#00caff"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 516.750916,421.652130 C 534.030884,404.372131 534.030884,438.932129 516.750916,421.652130"
+              class="id_vane0560-data_text" stroke-opacity="1.0"
+              stroke="#00caff"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 130.183014,649.758179 C -32.041107,487.046448 -31.309677,-0.357333 131.402054,-162.581451"
+              class="id_well0550-data_text id_anon0501-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 130.183014,649.758179 C -19.829231,615.031921 -192.758209,337.924225 -158.031982,187.911972"
+              class="id_well0550-data_text id_bhch0565-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 130.183014,649.758179 C 39.418507,642.513855 -85.861771,495.500671 -78.617462,404.736176"
+              class="id_well0550-data_text id_long0500-data_text"
+              stroke-opacity="1.0" stroke="#c686e9"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -638.561157,-220.995178 C -593.299866,-163.498322 -611.653137,-9.361032 -669.150024,35.900284"
+              class="id_whin0450-data_text id_kenn0000-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -638.561157,-220.995178 C -459.968170,-171.582825 -266.197266,170.425171 -315.609619,349.018127"
+              class="id_whin0450-data_text id_lumm0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -638.561157,-220.995178 C -578.932861,-227.375900 -479.919281,-147.504501 -473.538574,-87.876190"
+              class="id_whin0450-data_text id_pohl0350-data_text"
+              stroke-opacity="1.0" stroke="#5fc613"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -153.424530,-448.422119 C -137.848663,-542.752747 27.011139,-660.884949 121.341805,-645.309082"
+              class="id_wood0350-data_text id_ekma0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -153.424530,-448.422119 C -101.081154,-486.610596 34.716568,-465.378174 72.905022,-413.034821"
+              class="id_wood0350-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -153.424530,-448.422119 C -220.781708,-371.573120 -437.090942,-357.335419 -513.939941,-424.692596"
+              class="id_wood0350-data_text id_goet0350-data_text"
+              stroke-opacity="1.0" stroke="#967679"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -153.424530,-448.422119 C -186.379944,-502.258942 -155.057800,-632.447388 -101.220963,-665.402771"
+              class="id_wood0350-data_text id_kine0350-data_text"
+              stroke-opacity="1.0" stroke="#2e9072"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -153.424530,-448.422119 C -159.846039,-380.802002 -270.908478,-289.004120 -338.528595,-295.425629"
+              class="id_wood0350-data_text id_kint0350-data_text"
+              stroke-opacity="1.0" stroke="#967679"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -153.424530,-448.422119 C -216.784576,-437.498413 -328.210205,-516.152954 -339.133911,-579.513000"
+              class="id_wood0350-data_text id_ticm0350-data_text"
+              stroke-opacity="1.0" stroke="#967679"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 513.918762,-422.877045 C 550.815308,-278.853485 390.124756,-7.473278 246.101181,29.423275"
+              class="id_wood0430-data_text id_arna0770-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 513.918762,-422.877045 C 427.684448,-332.705841 163.076218,-326.800507 72.905022,-413.034821"
+              class="id_wood0430-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#8c8b43"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 513.918762,-422.877045 C 481.997223,-363.504578 345.056244,-322.328217 285.683777,-354.249756"
+              class="id_wood0430-data_text id_munk0430-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 513.918762,-422.877045 C 550.965942,-459.924225 550.965942,-385.829865 513.918762,-422.877045"
+              class="id_wood0430-data_text" stroke-opacity="1.0"
+              stroke="#ea8615"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 513.918762,-422.877045 C 446.679596,-418.568054 339.357422,-512.963318 335.048431,-580.202454"
+              class="id_wood0430-data_text id_wood043b-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 335.048431,-580.202454 C 316.053284,-494.340240 158.767227,-394.039673 72.905022,-413.034821"
+              class="id_wood043b-data_text id_gill0350-data_text"
+              stroke-opacity="1.0" stroke="#8c8b43"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 335.048431,-580.202454 C 370.366058,-525.138977 340.747253,-389.567383 285.683777,-354.249756"
+              class="id_wood043b-data_text id_munk0430-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 335.048431,-580.202454 C 402.287598,-584.511414 509.609772,-490.116211 513.918762,-422.877045"
+              class="id_wood043b-data_text id_wood0430-data_text"
+              stroke-opacity="1.0" stroke="#ea8615"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 335.048431,-580.202454 C 366.207367,-611.361389 366.207367,-549.043518 335.048431,-580.202454"
+              class="id_wood043b-data_text" stroke-opacity="1.0"
+              stroke="#ea8615"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#c686e9" r="36.043438" cx="131.40205"
+                class="id_anon0501-data_text" cy="-162.58145" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="22.346998" cx="98.39138"
+                class="id_arna0660-data_text" cy="207.27983" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="17.64045" cx="-158.03198"
+                class="id_bhch0565-data_text" cy="187.91197" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#2e9072" r="33.001568" cx="72.90502"
+                class="id_gill0350-data_text" cy="-413.03482" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="40.0" cx="-78.61746"
+                class="id_long0500-data_text" cy="404.73618" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="17.454323" cx="-20.760216"
+                class="id_nels0350-data_text" cy="7.9992433" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="26.112286" cx="-101.47969"
+                class="id_oska0551-data_text" cy="-219.76999" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="14.29898" cx="146.05666"
+                class="id_plat0550-data_text" cy="424.42017" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="15.793939" cx="130.18301"
+                class="id_well0550-data_text" cy="649.7582" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00caff" r="5.0" cx="629.2359"
+                class="id_arna0440-dos-data_text" cy="227.60355"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00caff" r="6.827561" cx="462.90472"
+                class="id_arna0440-linux-data_text" cy="73.231224"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00caff" r="6.827561" cx="675.11475"
+                class="id_arna0440-source-data_text" cy="-9.01118"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00caff" r="13.366741" cx="615.5854"
+                class="id_beck0500-data_text" cy="-215.95958" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ea8615" r="12.006493" cx="246.10118"
+                class="id_arna0770-data_text" cy="29.423275" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ea8615" r="19.036835" cx="285.68378"
+                class="id_munk0430-data_text" cy="-354.24976" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ea8615" r="6.4693193" cx="399.34732"
+                class="id_mcdo0551-data_text" cy="-159.72678" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ea8615" r="18.523586" cx="513.91876"
+                class="id_wood0430-data_text" cy="-422.87704" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00caff" r="10.6912155" cx="345.82968"
+                class="id_kenw0550-data_text" cy="556.8224" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00caff" r="8.639992" cx="339.39673"
+                class="id_plot0350-data_text" cy="278.80646" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00caff" r="8.639992" cx="516.7509"
+                class="id_vane0560-data_text" cy="421.65213" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="8.262632" cx="-413.3264"
+                class="id_malm1000-data_text" cy="138.90414" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="15.522159" cx="-497.48535"
+                class="id_cox_0350-data_text" cy="458.30405" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="7.750881" cx="-88.88497"
+                class="id_CROW0000-data_text" cy="650.4051" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="8.401562" cx="-612.4113"
+                class="id_daim0350-data_text" cy="258.1254" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="13.308166" cx="-669.15"
+                class="id_kenn0000-data_text" cy="35.900284" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="17.449593" cx="-315.60962"
+                class="id_lumm0350-data_text" cy="349.01813" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="14.310801" cx="-473.53857"
+                class="id_pohl0350-data_text" cy="-87.87619" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="10.018204" cx="-295.38477"
+                class="id_russ0000-data_text" cy="593.01404" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#2e9072" r="10.237001" cx="121.341805"
+                class="id_ekma0350-data_text" cy="-645.3091" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#2e9072" r="10.237001" cx="-101.22096"
+                class="id_kine0350-data_text" cy="-665.4028" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#2e9072" r="16.623081" cx="-153.42453"
+                class="id_wood0350-data_text" cy="-448.42212" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ea8615" r="15.579466" cx="335.04843"
+                class="id_wood043b-data_text" cy="-580.20245" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ff5c81" r="11.170847" cx="-513.93994"
+                class="id_goet0350-data_text" cy="-424.6926" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ff5c81" r="8.232582" cx="-338.5286"
+                class="id_kint0350-data_text" cy="-295.42563" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ff5c81" r="8.570267" cx="-339.1339"
+                class="id_ticm0350-data_text" cy="-579.513" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#5fc613" r="8.129518" cx="-638.56116"
+                class="id_whin0450-data_text" cy="-220.99518" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c686e9" r="6.9938188" cx="-255.70761"
+                class="id_malm0350-data_text" cy="-48.266376" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="87" x="131.40205" y="-146.68314" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_anon0501-data_text">
+            anon0501
+        </text>
+        <text font-size="54" x="98.39138" y="217.14775" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_arna0660-data_text">
+            arna0660
+        </text>
+        <text font-size="42" x="-158.03198" y="195.58702" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_bhch0565-data_text">
+            bhch0565
+        </text>
+        <text font-size="79" x="72.90502" y="-394.68314" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_gill0350-data_text">
+            gill0350
+        </text>
+        <text font-size="96" x="-78.61746" y="427.03696" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_long0500-data_text">
+            long0500
+        </text>
+        <text font-size="42" x="-20.760216" y="15.679419" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_nels0350-data_text">
+            nels0350
+        </text>
+        <text font-size="63" x="-101.47969" y="-208.25742" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_oska0551-data_text">
+            oska0551
+        </text>
+        <text font-size="34" x="146.05666" y="432.21875" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_plat0550-data_text">
+            plat0550
+        </text>
+        <text font-size="38" x="130.18301" y="656.7023" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_well0550-data_text">
+            well0550
+        </text>
+        <text font-size="12" x="629.2359" y="229.79642" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_arna0440-dos-data_text">
+            arna0440-dos
+        </text>
+        <text font-size="16" x="462.90472" y="76.15505" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_arna0440-linux-data_text">
+            arna0440-linux
+        </text>
+        <text font-size="16" x="675.11475" y="-6.087352" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_arna0440-source-data_text">
+            arna0440-source
+        </text>
+        <text font-size="32" x="615.5854" y="-210.11192" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_beck0500-data_text">
+            beck0500
+        </text>
+        <text font-size="29" x="246.10118" y="34.722713" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_arna0770-data_text">
+            arna0770
+        </text>
+        <text font-size="46" x="285.68378" y="-345.83813" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_munk0430-data_text">
+            munk0430
+        </text>
+        <text font-size="16" x="399.34732" y="-156.80295" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_mcdo0551-data_text">
+            mcdo0551
+        </text>
+        <text font-size="44" x="513.91876" y="-414.83115" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wood0430-data_text">
+            wood0430
+        </text>
+        <text font-size="26" x="345.82968" y="561.5736" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_kenw0550-data_text">
+            kenw0550
+        </text>
+        <text font-size="21" x="339.39673" y="283.62323" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_plot0350-data_text">
+            plot0350
+        </text>
+        <text font-size="21" x="516.7509" y="425.48965" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_vane0560-data_text">
+            vane0560
+        </text>
+        <text font-size="20" x="-413.3264" y="142.55893" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_malm1000-data_text">
+            malm1000
+        </text>
+        <text font-size="37" x="-497.48535" y="466.79074" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_cox_0350-data_text">
+            cox_0350
+        </text>
+        <text font-size="19" x="-88.88497" y="653.9235" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_CROW0000-data_text">
+            CROW0000
+        </text>
+        <text font-size="20" x="-612.4113" y="261.78262" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_daim0350-data_text">
+            daim0350
+        </text>
+        <text font-size="32" x="-669.15" y="41.74794" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_kenn0000-data_text">
+            kenn0000
+        </text>
+        <text font-size="42" x="-315.60962" y="356.6983" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_lumm0350-data_text">
+            lumm0350
+        </text>
+        <text font-size="34" x="-473.53857" y="-80.07761" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_pohl0350-data_text">
+            pohl0350
+        </text>
+        <text font-size="24" x="-295.38477" y="597.3998" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_russ0000-data_text">
+            russ0000
+        </text>
+        <text font-size="25" x="121.341805" y="-640.73755" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_ekma0350-data_text">
+            ekma0350
+        </text>
+        <text font-size="25" x="-101.22096" y="-660.83124" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_kine0350-data_text">
+            kine0350
+        </text>
+        <text font-size="40" x="-153.42453" y="-441.10767" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wood0350-data_text">
+            wood0350
+        </text>
+        <text font-size="37" x="335.04843" y="-573.4366" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wood043b-data_text">
+            wood043b
+        </text>
+        <text font-size="27" x="-513.93994" y="-418.4205" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_goet0350-data_text">
+            goet0350
+        </text>
+        <text font-size="20" x="-338.5286" y="-291.7684" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_kint0350-data_text">
+            kint0350
+        </text>
+        <text font-size="21" x="-339.1339" y="-575.6729" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_ticm0350-data_text">
+            ticm0350
+        </text>
+        <text font-size="20" x="-638.56116" y="-217.3404" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_whin0450-data_text">
+            whin0450
+        </text>
+        <text font-size="17" x="-255.70761" y="-45.157734" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_malm0350-data_text">
+            malm0350
+        </text>
+    </g>
+</svg>
