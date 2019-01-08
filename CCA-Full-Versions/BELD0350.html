@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Original Adventure for Amiga (1992) - MobyGames</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base target="_top">
+  <meta name="description" content="This is a C language port of Crowther's original ADVENTURE. In order to restore the original version (which was then thought to be lost) Marvin W. Rasmussen started out with the BSD-C port of Adventure from the CP/M public domain library, made by Jay R. Jaeger and L. C. Calhoun and compared it to tw...">
+  <meta property="og:site_name" content="MobyGames" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.mobygames.com/images/mobygames-logo-bg.png" />
+  <meta property="og:title" content="Original Adventure for Amiga (1992) - MobyGames" />
+  <meta property="og:description" content="This is a C language port of Crowther's original ADVENTURE. In order to restore the original version (which was then thought to be lost) Marvin W. Rasmussen started out with the BSD-C port of Adventure from the CP/M public domain library, made by Jay R. Jaeger and L. C. Calhoun and compared it to tw..." />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MobyGames">
+<meta name="twitter:title" content="Original Adventure for Amiga (1992) - MobyGames">
+<meta name="twitter:description" content="This is a C language port of Crowther's original ADVENTURE. In order to restore the original version (which was then thought to be lost) Marvin W. Rasmussen started out with the BSD-C port of Adventure from the CP/M public domain library, made by Jay R. Jaeger and L. C. Calhoun and compared it to two older versions written in Fortran:...">
+<meta name="twitter:image" content="https://www.mobygames.com/images/mobygames-logo-bg.png">
+  <meta name="google-site-verification" content="tJt3KCZCKYjBQCF3Fi55jOw6LD2AiPzSrlP6E-mZvSs" />
+  <meta name="p:domain_verify" content="aeca3386c9fda93d0a64006ba1249e4c"/>
+  <link rel="shortcut icon" href="https://www.mobygames.com/favicon.ico" />
+  <link rel="apple-touch-icon image_src" href="https://www.mobygames.com/images/moby300x300.png">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MXCSBJM');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="alternate" title="MobyGames RSS" href="https://www.mobygames.com/rss/news.rss" type="application/rss+xml" >
+  <link href="https://www.mobygames.com/game/original-adventure" rel="canonical">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://www.mobygames.com/css/18090601/1s/moby_mobyrank_safari.css" type="text/css">
+  <script type="text/javascript" src="/js/18090601/global.js"></script><script type="text/javascript">
+
+        function selectCountry() {
+          document.getElementById('ctrq').style.display = 'none';
+          document.getElementById('ctrs').style.display = 'block';
+          void 1;
+        }
+      </script>
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXCSBJM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+      <div class="grid grid-navbar">
+        <div class="grid-navbar-logo">
+          <a href="https://www.mobygames.com/"><img src="/images/mobygames-logo.png" width="163" height="75" alt="MobyGames"></a>
+        </div>
+        <div class="grid-navbar-menu">
+          <form action="/search/quick" accept-charset="UTF-8" id="formaafr" method="GET">
+            <div class="input-group input-group-sm">
+              <input type="text" id="qsearch" name="q" class="form-control headerSearchForm searchBarHeight" placeholder="Search games, credits, companies...">
+              <div class="input-group-btn">
+                <button type="submit" class="btn btn-primary searchBarHeight"><span class="glyphicon glyphicon-search"></span></button>
+              </div>
+            </div>
+          </form>
+          <ul id="moby-main-menu">
+            
+            <li><a href="https://www.mobygames.com/browse/games" title="Browse games">Games</a></li>
+            <li><a href="https://www.mobygames.com/forums" title="Community discussion">Forums</a></li>
+            <li class="hidden-xs hidden-sm">
+              <a href="https://www.mobygames.com/news" data-toggle="dropdown" title="The latest at MobyGames">Updates <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.mobygames.com/news">Site News</a></li>
+                <li class="divider"></li>
+                <li><a href="https://www.mobygames.com/stats/recent_entries">New Games</a></li>
+                <li><a href="https://www.mobygames.com/stats/recent_modifications">Game Updates</a></li>
+                <li><a href="https://www.mobygames.com/stats/recent_reviews">New Reviews</a></li>
+                <li><a href="https://www.mobygames.com/stats/new_companies">New Companies</a></li>
+                <li><a href="https://www.mobygames.com/stats/company_modifications">Company Updates</a></li>
+                <li><a href="https://www.mobygames.com/stats/developer_modifications">Developer Updates</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.mobygames.com/info/contribute" data-toggle="dropdown" title="Contribute">Contribute <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.mobygames.com/new_game_wizard/">Add New Game</a></li>
+                <li><a href="https://www.mobygames.com/poll_wizard">Add New Poll</a></li>
+                <li><a href="https://www.mobygames.com/featured_game_wizard/">Add Featured Game</a></li>
+                
+                <li class="divider"></li>
+                <li><a href="https://www.mobygames.com/info/contribute">Instructions</a></li>
+                <li><a href="https://www.mobygames.com/info/standards">Standards</a></li>
+                <li><a href="https://www.mobygames.com/stats/contributors">Top Contributors</a></li>
+                <li><a href="https://www.mobygames.com/wanted/dead-or-alive">Most Wanted</a></li>
+              </ul>
+            </li>
+            <li><a href="https://www.mobygames.com/random/game?1546896007" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Random Game"><span class="glyphicon glyphicon-random"></span></a></li>
+            <li>
+              <a href="https://www.patreon.com/mobygames" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Help support the MobyGames project with Patreon!">
+                <span class="glyphicon glyphicon-heart"></span>
+              </a>
+            </li>
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+<div class="grid-navbar-user"><div style="text-align: right"><a href="https://www.mobygames.com/acct/logon/from,:2fgame:2foriginal-adventure/g,3/" class="btn btn-teal">Sign in</a> <a href="https://www.mobygames.com/acct/create_account" class="btn btn-teal">Register</a></div></div>      </div><!-- /.grid -->
+    </div><!-- /.container -->
+<div id="wrapper">
+<div class="container">
+<div id="main" class="row">
+<div class="col-md-12 col-lg-12">
+<div class="lifesupport-header"><!-- /13326244/MG_728x90_1 -->
+<div id="div-gpt-ad-1483554231585-2"></div></div>
+<div class="rightPanelHeader"><h1 class="niceHeaderTitle"><a href="https://www.mobygames.com/game/original-adventure">Original Adventure</a><div class="pull-right"><a href="https://www.mobygames.com/game/original-adventure/forums" class="btn btn-xs btn-clear">Discuss</a> <a href="https://www.mobygames.com/game/sheet/review_game/original-adventure/" class="btn btn-xs btn-clear">Review</a> <a href="https://www.mobygames.com/game/original-adventure/add-to-want-list" class="btn btn-xs btn-clear">+ Want</a> <a href="https://www.mobygames.com/game/original-adventure/add-to-have-list" class="btn btn-xs btn-clear">+ Have</a> <a href="https://www.mobygames.com/game/original-adventure/contribute" class="btn btn-xs btn-mobysuccess">Contribute</a> </div></h1><ul class="nav nav-tabs" style="margin-bottom: 15px;"><li class="active"><a href="https://www.mobygames.com/game/original-adventure">Main</a></li><li><a href="https://www.mobygames.com/game/original-adventure/credits">Credits</a></li><li><a href="https://www.mobygames.com/game/original-adventure/screenshots">Screenshots</a></li><li><a href="https://www.mobygames.com/game/original-adventure/mobyrank">Reviews</a></li><li class="disabled"><a href="#">Cover Art</a></li><li class="disabled"><a href="#">Promo Art</a></li><li><a href="https://www.mobygames.com/game/original-adventure/release-info">Releases</a></li><li class="disabled"><a href="#">Trivia</a></li><li class="disabled"><a href="#">Hints</a></li><li><a href="https://www.mobygames.com/game/original-adventure/techinfo">Specs</a></li><li class="disabled"><a href="#">Ad Blurb</a></li><li class="disabled"><a href="#">Rating Systems</a></li><li></li><li><a href="https://www.mobygames.com/game/original-adventure/buy-trade">Buy/Trade</a></li></ul><div id="floatholder coreGameInfo"><table class="pct100">
+  <tr valign="top">
+    <td width="1%"><div id="coreGameCover"><img title="Missing cover image (using game screenshot)" alt="Original Adventure Amiga Startup" border="0" src="/images/shots/s/708387-original-adventure-amiga-screenshot-startup.jpg" height="128" width="160" ><p class="missingCoverText" title="Missing cover image (using game screenshot)">MISSING COVER</p>
+<div class="links">[<a href="https://www.mobygames.com/game/sheet/contribute/covers/original-adventure/">add&nbsp;cover</a>]</div></div></td>
+    <td width="48%"><div id="coreGameRelease"><div style="font-size: 100%; font-weight: bold;">Released</div><div style="font-size: 90%; padding-left: 1em; padding-bottom: 0.25em;"><a href="https://www.mobygames.com/game/original-adventure/release-info">1987</a></div><div style="font-size: 100%; font-weight: bold;">Platforms</div><div style="font-size: 90%; padding-left: 1em; padding-bottom: 0.25em;"><a href="https://www.mobygames.com/game/amiga/original-adventure">Amiga</a>, <a href="https://www.mobygames.com/game/atari-st/original-adventure">Atari ST</a></div></div></td>
+    <td width="48%"><div id="coreGameGenre"><div><div style="font-size: 100%; font-weight: bold;">Genre</div><div style="font-size: 90%; padding-left: 1em; padding-bottom: 0.25em;"><a href="https://www.mobygames.com/genre/sheet/adventure/">Adventure</a></div><div style="font-size: 100%; font-weight: bold;">Gameplay</div><div style="font-size: 90%; padding-left: 1em; padding-bottom: 0.25em;"><a href="https://www.mobygames.com/genre/sheet/interactive-fiction/">Interactive&nbsp;Fiction&nbsp;/&nbsp;Text&nbsp;Adventure</a>, <a href="https://www.mobygames.com/genre/sheet/puzzle-elements/">Puzzle&nbsp;elements</a></div><div style="font-size: 100%; font-weight: bold;">Setting</div><div style="font-size: 90%; padding-left: 1em; padding-bottom: 0.25em;"><a href="https://www.mobygames.com/genre/sheet/fantasy/">Fantasy</a></div></div></div></td>
+    <td width="1%"><div id="coreGameRank"><div class="ieheight0hack" style="padding: 0 120px;">
+  <div class="ieheight0hack" style="width: 100%;">
+    <div class="ieheight0hack" style="margin: 0 -120px; position: relative; min-width: 240px;">
+<table  width="99%" border="0" cellpadding="2" cellspacing="0">
+  <col>
+  <col>
+  <col>
+<thead>
+  <tr valign="top">
+    <th class="left"></th>
+    <th class="center">Critic Score</th>
+    <th class="center">User Score</th>
+  </tr>
+</thead>
+<tbody>
+  <tr valign="top">
+    <td class="left">Amiga</td>
+    <td class="center"><center><div class="scoreNone" style="font-size: 13pt; width: 2.75em; padding: 0.25em 0 0.50em 0; color: white; text-align: center; font-weight: bold">...</div></center></td>
+    <td class="center"><center><div class="scoreNone" style="font-size: 11pt; width: 2.75em; padding: 0.20em 0 0.50em 0; color: white; text-align: center; font-weight: bold">...</div></center></td>
+  </tr>
+  <tr valign="top">
+    <td colspan="3" class="left"><div class="dottedRule"></div></td>
+  </tr>
+  <tr valign="top">
+    <td class="left">Atari ST</td>
+    <td class="center"><center><div class="scoreNone" style="font-size: 13pt; width: 2.75em; padding: 0.25em 0 0.50em 0; color: white; text-align: center; font-weight: bold">...</div></center></td>
+    <td class="center"><center><div class="scoreNone" style="font-size: 11pt; width: 2.75em; padding: 0.20em 0 0.50em 0; color: white; text-align: center; font-weight: bold">...</div></center></td>
+  </tr>
+</tbody>
+</table><div class="sideBarLinks">[<a href="https://www.mobygames.com/game/original-adventure/contribute/mobyrank">add review</a> | <a href="https://www.mobygames.com/game/original-adventure/mobyrank">score&nbsp;detail</a> | <a href="https://www.mobygames.com/game/original-adventure/rate">rate&nbsp;game</a>]</div>    </div>
+  </div>
+</div>
+</div></td>
+  </tr>
+</table></div></div>
+<div class="row">
+<div class="col-md-8 col-lg-8"><div style="overflow: auto;"><div class="buyGameLinkHolder"><a target="_blank" rel="nofollow" href="https://www.amazon.com/exec/obidos/external-search?tag=mobygames&amp;keyword=Original+Adventure&amp;mode=videogames">Buy at <img alt="amazon.com" border="0" src="/images/buybox/amazon.png" height="28.8" width="143.1" ></a></div><div class="buyGameLinkHolder"><img style="text-decoration:none;border:0;padding:0;margin:0;" src="https://rover.ebay.com/roverimp/1/711-53200-19255-0/1?ff3=9&pub=5574659349&toolid=10001&campid=5335885335&mpt=226123">
+<a target="_blank" rel="nofollow" href="https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=9&amp;pub=5574659349&amp;toolid=10001&amp;campid=5335885335&amp;customid=&amp;icep_uq=Original+Adventure&amp;icep_sellerId=&amp;icep_ex_kw=&amp;icep_sortBy=12&amp;icep_catId=1249&amp;icep_minPrice=&amp;icep_maxPrice=&amp;ipn=psmain&amp;icep_vectorid=229466&amp;kwid=902099&amp;mtid=824&amp;kw=lg">Buy at <img alt="ebay.com" border="0" src="/images/buybox/ebay-us.gif" height="27.9" width="67.5" ></a></div></div><div style="display:none;" id="ctrs"><form ACTION="/game/original-adventure" accept-charset="UTF-8" id="formaacf" method="POST"><div class="formContents">Please select your country: <select  class="FormLt1" id="AA0000040" name="selctry" SIZE="1">
+<option value="us">United States</option>
+<option value="ar">Argentina</option>
+<option value="au">Australia</option>
+<option value="at">Austria</option>
+<option value="by">Belarus</option>
+<option value="be">Belgium</option>
+<option value="br">Brazil</option>
+<option value="BN">Brunei</option>
+<option value="bg">Bulgaria</option>
+<option value="ca">Canada</option>
+<option value="cl">Chile</option>
+<option value="cn">China</option>
+<option value="co">Colombia</option>
+<option value="hr">Croatia</option>
+<option value="cy">Cyprus</option>
+<option value="cz">Czech Republic</option>
+<option value="00">Czechoslovakia <small>(1945-1992)</small></option>
+<option value="dk">Denmark</option>
+<option value="01">East Germany <small>(1949-1990)</small></option>
+<option value="ee">Estonia</option>
+<option value="fi">Finland</option>
+<option value="fr">France</option>
+<option value="ge">Georgia</option>
+<option value="de">Germany</option>
+<option value="gr">Greece</option>
+<option value="hk">Hong Kong</option>
+<option value="hu">Hungary</option>
+<option value="is">Iceland</option>
+<option value="in">India</option>
+<option value="id">Indonesia</option>
+<option value="ie">Ireland</option>
+<option value="il">Israel</option>
+<option value="it">Italy</option>
+<option value="jp">Japan</option>
+<option value="lv">Latvia</option>
+<option value="lt">Lithuania</option>
+<option value="lu">Luxembourg</option>
+<option value="mo">Macau</option>
+<option value="mk">Macedonia</option>
+<option value="my">Malaysia</option>
+<option value="mt">Malta</option>
+<option value="mx">Mexico</option>
+<option value="nl">The Netherlands</option>
+<option value="nz">New Zealand</option>
+<option value="kr">North Korea</option>
+<option value="no">Norway</option>
+<option value="ph">Philippines</option>
+<option value="pl">Poland</option>
+<option value="pt">Portugal</option>
+<option value="ro">Romania</option>
+<option value="ru">Russia</option>
+<option value="sa">Saudi Arabia</option>
+<option value="cs">Serbia</option>
+<option value="sg">Singapore</option>
+<option value="sk">Slovakia</option>
+<option value="si">Slovenia</option>
+<option value="kp">South Korea</option>
+<option value="es">Spain</option>
+<option value="se">Sweden</option>
+<option value="ch">Switzerland</option>
+<option value="tw">Taiwan</option>
+<option value="th">Thailand</option>
+<option value="tr">Turkey</option>
+<option value="ua">Ukraine</option>
+<option value="ae">United Arab Emirates</option>
+<option value="uk">United Kingdom</option>
+<option value="uy">Uruguay</option>
+<option value="vn">Vietnam</option>
+<option value="su">U.S.S.R. <small>(1922-1991)</small></option>
+<option value="yu">Yugoslavia <small>(1945-1992)</small></option>
+<option value="cm">Africa » Cameroon</option>
+<option value="za">Africa » South Africa</option>
+<option value="==">Worldwide</option>
+<option value="--">Other</option>
+</select>
+<input class="btn btn-primary btn-xs" type="submit" name="setcountry" value="Okay"></div></form></div><div id="ctrq" style="text-align:right;"><small>Not an <a href="javascript:selectCountry()">American</a> user?</small></div><h2>Description</h2>This is a C language port of Crowther's original <i><a href="https://www.mobygames.com/search/quick?game=ADVENTURE">ADVENTURE</a>.</i> In order to restore the original version (which was then thought to be lost) <a href="https://www.mobygames.com/developer/sheet/view/developerId,633217/">Marvin W. Rasmussen</a> started out with the BSD-C port of <i>Adventure</i> from the CP/M public domain library, made by <a href="https://www.mobygames.com/developer/sheet/view/developerId,482618/">Jay R. Jaeger</a> and <a href="https://www.mobygames.com/developer/sheet/view/developerId,633218/">L. C. Calhoun</a> and compared it to two older versions written in Fortran: an ISIS-II Fortran-77 version (itself merged from a Fortran-10 version made by Crowther and Woods and a Fortran-IV-Plus version called <i><a href="https://www.mobygames.com/game/adventures">ADVENTURES</a></i> made by <a href="https://www.mobygames.com/developer/sheet/view/developerId,633219/">Kent Blackett</a> at DEC) and a version written for an unknown mini computer (probably a Harris). Using the Fortran versions, the original wording (with spelling mistakes and all) and interpreter mechanisms were reintroduced into the new C version written for the Atari ST.<br><br>This was for many years regarded as as close to the original Crowther/Woods <i>ADVENTURE</i> one could get, until an original Fortran version of Crowther's ur-Adventure was discovered on a backup tape in 2007.<div class="sideBarLinks">[<a href="https://www.mobygames.com/contrib/revisions/at,10/oid,63513/">edit description</a> | <a rel="nofollow" href="https://www.mobygames.com/revisions/at,10/oid,63513/">view history</a>]</div><br><h2>Screenshots</h2><div class="row"><div class="col-xs-6 col-sm-3 col-md-3"><a class="thumbnail" href="https://www.mobygames.com/game/original-adventure/screenshots"><img alt="Original Adventure Amiga Adventuring" border="0" src="/images/shots/s/708389-original-adventure-amiga-screenshot-adventuring.jpg" height="128" width="160" ></a> </div><div class="col-xs-6 col-sm-3 col-md-3"><a class="thumbnail" href="https://www.mobygames.com/game/original-adventure/screenshots"><img alt="Original Adventure Amiga Startup" border="0" src="/images/shots/s/708387-original-adventure-amiga-screenshot-startup.jpg" height="128" width="160" ></a> </div><div class="col-xs-6 col-sm-3 col-md-3"><a class="thumbnail" href="https://www.mobygames.com/game/original-adventure/screenshots"><img alt="Original Adventure Amiga Instructions" border="0" src="/images/shots/s/708388-original-adventure-amiga-screenshot-instructions.jpg" height="128" width="160" ></a> </div><div class="col-xs-6 col-sm-3 col-md-3"><a class="thumbnail" href="https://www.mobygames.com/game/original-adventure/screenshots"><img alt="Original Adventure Amiga Limited vocabulary" border="0" src="/images/shots/s/708390-original-adventure-amiga-screenshot-limited-vocabulary.jpg" height="128" width="160" ></a> </div></div><div class="sideBarLinks">[<a href="https://www.mobygames.com/game/original-adventure/screenshots">3 more</a> | <a href="https://www.mobygames.com/game/sheet/contribute/screenshot/original-adventure/">add screenshots</a>]</div><br><h2>Promo Images</h2><p>There are no promo images for this game</p><div class="sideBarLinks">[<a href="https://www.mobygames.com/game/sheet/contribute/game_promo/original-adventure/">add promo images</a>]</div><br><h2>Alternate Titles</h2><ul
+>  <li>"Adventure" -- <em>Amiga title</em></li>
+</ul>
+<div class="sideBarLinks">[<a href="https://www.mobygames.com/game/sheet/contribute/alt_title/original-adventure/">add alternate title</a>]</div><br><h2>Part of the Following Group</h2><ul
+>  <li><a href="https://www.mobygames.com/game-group/adventure-versions">Adventure versions</a></li>
+</ul>
+<h2>User Reviews</h2><p>There are no reviews for this game.</p><div class="sideBarLinks">[<a href="https://www.mobygames.com/game/sheet/review_game/original-adventure/">review game</a>]</div><br><h2>Critic Reviews</h2><p>There are no critic reviews for this game.</p><div class="sideBarLinks">[<a href="https://www.mobygames.com/game/original-adventure/contribute/mobyrank">add&nbsp;review</a>]</div><br><h2>Forums</h2><p>There are currently no topics for this game.</p><div class="sideBarLinks">[<a href="https://www.mobygames.com/game/original-adventure/forums/dga,1/dgm,-1/">new thread</a>]</div><br><h2>Trivia</h2><p>There is no trivia on file for this game.</p><div class="sideBarLinks">[<a href="https://www.mobygames.com/game/sheet/contribute/trivia/original-adventure/">add trivia</a>]</div><br><div class="otherGameAttribution">
+Contributed to by  <a href="https://www.mobygames.com/user/sheet/userSheetId,56878/">Игги Друге</a> (46422)</div>
+</div>
+<div class="col-md-4 col-lg-4"><div class="well" style="text-align:center; margin-bottom: 10px;"><!-- /13326244/MG_300x250 -->
+<div id="div-gpt-ad-1483554231585-1"></div></div><div class="sideBar">
+  <div class="sideBarTitle"><h2>Amiga Credits</h2></div>
+  <div class="sideBarContent">Prepared&nbsp;by:<br><div style="padding: 0.5em 1em 1em 1em;" ><a href="https://www.mobygames.com/developer/sheet/view/developerId,633220/">Tony&nbsp;L.&nbsp;Belding</a>&nbsp;(using&nbsp;the&nbsp;SAS/C Compiler)</div>Original&nbsp;source&nbsp;provided by:<br><div style="padding: 0.5em 1em 1em 1em;" ><a href="https://www.mobygames.com/developer/sheet/view/developerId,633217/">Marvin&nbsp;W.&nbsp;Rasmussen</a>&nbsp;(Austin&nbsp;Atari&nbsp;Computer Enthusiasts)</div>This&nbsp;program&nbsp;was&nbsp;originally developed by:<br><div style="padding: 0.5em 1em 1em 1em;" ><a href="https://www.mobygames.com/developer/sheet/view/developerId,15632/">Will&nbsp;Crowther</a></div>Most&nbsp;of&nbsp;the&nbsp;features of the current program were added by:<br><div style="padding: 0.5em 1em 1em 1em;" ><a href="https://www.mobygames.com/developer/sheet/view/developerId,15643/">Don&nbsp;Woods</a></div></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lifesupport-footer-wrapper"><div class="container"><div class="lifesupport-footer"><center><div style="display: flex; align-items: center; justify-content: space-between;">
+<!-- /13326244/MG_728x90_2 -->
+<div id="div-gpt-ad-1483554231585-3"></div>
+
+<!-- /13326244/MOG0300x0250_2_N -->
+<div id='div-gpt-ad-1483554231585-4'></div>
+
+<!-- /13326244/MOG0300x0250_3_N -->
+<div id='div-gpt-ad-1483554231585-5'></div>
+</div></center></div></div></div>  <div id="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="footer-header">MobyGames</div>
+          <ul class="footer-nav">
+            <li><a href="https://www.mobygames.com/">Home</a></li>
+            <li><a href="https://www.mobygames.com/info/faq">FAQ</a></li>
+            <li><a href="https://www.mobygames.com/info/standards">Standards</a></li>
+            <li><a href="https://www.mobygames.com/info/api">API</a></li>
+            <li><a href="https://www.mobygames.com/info/feedback">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="footer-header">What's New</div>
+          <ul class="footer-nav">
+            <li><a href="https://www.mobygames.com/stats/recent_entries">New Games</a></li>
+            <li><a href="https://www.mobygames.com/stats/recent_modifications">Game Updates</a></li>
+            <li><a href="https://www.mobygames.com/stats/recent_reviews">New Reviews</a></li>
+            <li><a href="https://www.mobygames.com/stats/new_companies">New Companies</a></li>
+            <li><a href="https://www.mobygames.com/changelog">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="footer-header">Stats</div>
+          <ul class="footer-nav">
+            <li><a href="https://www.mobygames.com/stats/top_games">Top Games</a></li>
+            <li><a href="https://www.mobygames.com/stats/all_time_worst">Bottom Games</a></li>
+            <li><a href="https://www.mobygames.com/stats/contributors">Top Contributors</a></li>
+            <li><a href="https://www.mobygames.com/moby_stats">Database Stats</a></li>
+            <li><a href="https://www.mobygames.com/wanted/dead-or-alive">Most Wanted</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="footer-header">
+            Community
+          </div>
+          <ul class="footer-nav">
+            <li><a href="https://www.mobygames.com/info/patrons">Patrons</a></li>
+            <li><a href="https://www.mobygames.com/forums">Forums</a></li>
+            <li><a href="https://www.facebook.com/MobyGames">Facebook</a></li>
+            <li><a href="https://twitter.com/MobyGames">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <div class="footer-moby-logo">
+            <a href="https://www.mobygames.com/" class="add-margin-right hidden-xs"><img src="/images/mobygames-logo.png" width="109" height="50" alt="mobygames logo"></a>
+            <a href="https://www.patreon.com/bePatron?u=103683" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+          </div>
+          <div class="footer-moby-info">
+            <p>
+              The oldest, largest and most accurate video game database covering over 240 platforms from 1950 to date!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-bottom">
+    <div class="container">
+      <p class="copyright">
+        <a href="https://www.mobygames.com/">MobyGames</a>&trade; Copyright &copy; 1999-2019
+        <a href="http://blueflamelabs.com"><span class="glyphicon glyphicon-fire"></span> Blue Flame Labs</a>. All rights reserved.
+        <a href="https://www.mobygames.com/info/terms">Terms of Use</a>.
+        <a href="https://www.mobygames.com/info/privacy">Privacy Policy</a>.
+      </p>
+      <p class="mobyquote">
+        &quot;<a href="https://www.mobygames.com/game-group/mortal-kombat-games">Get over here!</a>&quot; <a href="https://www.mobygames.com/game-group/mortal-kombat-games"><span class="glyphicon glyphicon-info-sign"></span></a>
+      </p>
+    </div>
+  </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-258321-1', 'auto');
+  ga('send', 'pageview');
+
+</script></body>
+</html>

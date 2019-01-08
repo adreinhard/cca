@@ -1,0 +1,1402 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>Z80pack - Zilog Z80 and Intel 8080 Emulator and Crossassembler
+for UNIX and Windows</title>
+<link rel="stylesheet" type="text/css" href="../unix4fun.css">
+<meta name="keywords" content="z80sim, 8080sim, z80pack, Zilog Z80, Intel 8080, emulator, simulator, virtual system, assembler, CP/M, MP/M, IMDOS, CDOS, Cromix, CP/NET, GSX-80, PL/M, PL/M-80, UCSD p-System, UNIX, Windows, Altair 8800, IMSAI 8080, Cromemco Z-1, Cromemco Dazzler">
+</head>
+
+<body>
+
+<p><a href="../">Home</a></p>
+<center>
+<pre style="background-color: #ffffff; padding: 20px;">
+#######  #####    ###            #####    ###   #     #           #####    ###     #####    ###            #####    ###   #     #
+     #  #     #  #   #          #     #    #    ##   ##          #     #  #   #   #     #  #   #          #     #    #    ##   ##
+    #   #     # #     #         #          #    # # # #          #     # #     #  #     # #     #         #          #    # # # #
+   #     #####  #     #  #####   #####     #    #  #  #           #####  #     #   #####  #     #  #####   #####     #    #  #  #
+  #     #     # #     #               #    #    #     #          #     # #     #  #     # #     #               #    #    #     #
+ #      #     #  #   #          #     #    #    #     #          #     #  #   #   #     #  #   #          #     #    #    #     #
+#######  #####    ###            #####    ###   #     #           #####    ###     #####    ###            #####    ###   #     #
+</pre>
+</center>
+
+<br>
+
+<center>
+<table border="1" cellspacing="2" cellpadding="4">
+<tr>
+<td>
+<img src="altair.png" alt="Altair 8800 front panel"
+title="Altair 8800 front panel">
+</td>
+<td>
+<img src="imsai.png" alt="IMSAI 8080 front panel"
+title="IMSAI 8080 front panel">
+</td>
+</tr>
+</table>
+</center>
+
+<p>
+<hr>
+<center>
+<a href="#dri_quick">Quickstart DRI OS's</a> &nbsp; &nbsp;
+<a href="#ucsd_quick">Quickstart UCSD p-System</a> &nbsp; &nbsp;
+<a href="#download">Download</a> &nbsp; &nbsp;
+<a href="#documentation">Documentation</a> &nbsp; &nbsp;
+<a href="#links">Links</a> &nbsp; &nbsp;
+<a href="screenshots.html">Screenshots</a> &nbsp; &nbsp;
+<a href="news.html">News</a> &nbsp; &nbsp;
+<a href="contact.html">Contact</a> &nbsp; &nbsp;
+<a href="../dsgvo.html">Datenschutz</a>
+</center>
+<hr>
+<center>
+<a href="https://www.youtube.com/channel/UCwOfdlzktTTDuFyFODbA3yA/videos">YouTube Video Channel</a> &nbsp; &nbsp;
+<a href="https://github.com/udo-munk/z80pack">GitHub</a>
+</center>
+<hr>
+
+<a name="intro"></a>
+<p><b><font size="5">Introduction:</font></b></p>
+<b>z80pack</b> is a Zilog Z80 and Intel 8080 cross development package for
+UNIX and Windows systems distributed with all sources under a BSD style
+license. Included are:
+<ul>
+<li>z80sim - Generic Z80/8080 CPU emulation with ICE like user interface,
+similar to hardware emulators from Zilog and Mostek and others</li>
+<li>z80asm - Z80 cross assembler to bootstrap a Z80 or 8080 system from an
+UNIX or Windows host</li>
+<li>cpmsim - Emulation of a complete system for running CP/M 1, CP/M 2, CPM 3
+and MP/M 2 (bootable OS disk images included)</li>
+<li>altairsim - Emulation of an Altair 8800 system with 8080 or Z80 CPU,
+64KB RAM, Cromemco Dazzler graphics, Tarbell SD disk controller with four
+8" SD disk drives, front panel, 88SIO-2 connected to the host terminal,
+line printer connected to host file</li>
+<li>imsaisim - Emulation of an IMSAI 8080 system with 8080 or Z80 CPU, 64KB RAM,
+Cromemco Dazzler graphics, IMSAI FIF disk controller with four 8" SD disk
+drives, front panel, SIO-2 connected to the host terminal, line printer
+connected to host file</li>
+<li>cromemcosim - Emulation of a Cromemco Z-1 with Z80 CPU, 7 x 64KB banked
+memory, Cromemco Dazzler graphics, Cromemco 4FDC/16FDC disk controller with
+four 5.25" and 8" disk drives with support for DS and DD, front panel, UART
+on FDC card connected to the host terminal, additional TU-ART for more serial
+terminals and parallel printers</li>
+</ul>
+The CPU emulations are generic and can be used to emulate any
+Z80 or 8080 based system, the I/O hardware abstraction is well isolated.
+Originally the software was written for emulation of proprietary Z80
+controllers, to support development and testing.
+In 1987 this emulated Z80 was the fastest Z80 on the planet, at least if run
+on a Nixdorf/Pyradmid TARGON/35 system. It also was used to preconfigure
+very large Z80 based host systems, because the emulation on the TARGON
+machine ran the configuration programs multiple times faster than any
+existing Z80 system at this time.
+<p>
+The 8080 emulation was added in 2014, for running vintage systems based
+on the Intel 8080 with their original software.
+<p>
+The original 1987 version could not be released public, because it included
+proprietary components from various companies, but for the Z80 core
+I keept the copyright.
+So an emulation of a virtual complete computer system capable of
+runnning CP/M 1, CP/M 2, CP/M 3 and MP/M 2 has been build, as an example
+for what can be done with this software. The Z80 cross assembler
+was used to bootstrap CP/M 2.2 on the system, for CP/M 3 and MP/M 2 the
+loader BIOS's were written on an UNIX host, final work then was done
+under CP/M 2.2 running on the emulated system.
+<p>
+This virtual computer system has then been used to rebuild CP/M 1, CP/M 2,
+CP/M 3 and MP/M 2 completely from the sources. Also example implementations
+of CP/NET have been build, to network the virtual systems with
+this very early implementation of RPC (remote procedure calls). Additional
+disk images with all sources, tools and build scripts are available for
+download.
+<p>
+The system also runs the UCSD p-System Versions I.4, I.5, II.0 and IV.0.
+Disk images for ready-to-run systems as well as sources to rebuild the Z80
+version are available in the download section.
+<p>
+Features of the virtual cpmsim computer system:
+<ul>
+<li>Lightning fast Zilog Z80 and Intel 8080 CPU, >1 GHz clock frequency
+doable on consumer PC's</li>
+<li>Clock generator tunable in 1MHz steps, helpful for video games or
+running vintage systems at realistic speed</li>
+<li>Up to 16MB RAM, banked into 256 segments with programmable MMU. Size
+of segments adjustable in 256 byte page increment</li>
+<li>4 x IBM 8" SD compatible floppy disk drives</li>
+<li>2 x 4MB harddisk drives</li>
+<li>1 x 512MB harddisk drive</li>
+<li>1 x serial console port connected to the CRT</li>
+<li>5 x serial ports connected to TCP/IP ports for more MP/M terminals
+and CP/NET networking of multiple systems</li>
+<li>1 x serial auxiliary port</li>
+<li>1 x printer port</li>
+<li>10ms interrupt timer, used for MP/M, Fuzix and other RTO's</li>
+<li>hardware clock, readonly, uses date and time information from host</li>
+</ul>
+<p>
+The Z80 core then was used together with John Kichury's
+<a href="http://sourceforge.net/projects/frontpanel/">front panel library</a>,
+to build exact emulations of the Altair 8800, IMSA 8080 and
+Cromemco Z-1 computer systems, that can be fully operated via the front
+panel similar to the original machines. The IMSAI 3D computer model build
+by John is really stunning, see the screenshots.
+<p>
+In 2014 an Intel 8080 emulation was added, so that these machines can run
+original vintage 8080 software, like the MITS BASIC interpreter written
+by Bill Gates, Paul Allen and Monte Davidoff.
+<p>
+The Z80, 8080 and I/O emulations are written in ANSI C, the front panel
+emulation in C++, for POSIX compatible Open Systems.
+Systems on which the sources are known to compile are:
+<ul>
+<li>Apple OS X 10.9.2 and later</li>
+<li>OpenBSD, NetBSD, FreeBSD, PCBSD</li>
+<li>Linux x86 and x86-64 distributions like: Suse, Fedora Core, Debian</li>
+<li>Solaris 9/10/11 for SPARC and x86 with GNU C</li>
+<li>Microsoft Windows systems with Cygwin/CygwinX</li>
+</ul>
+<p>
+<p>
+Other native ports to Microsoft Windows have been done, links
+are in the <a href="#download">download</a> section.
+<p>
+<p>
+Home page of
+<a href="http://www.digitalresearch.biz/">Digital Research</a>
+where everything began.
+<p>
+<p>
+All Digital Research CP/M material included was taken from
+<a href="http://www.cpm.z80.de/">The Unofficial CP/M Web site</a>,
+the license for this material can be read there.
+<br>
+Other commercial CP/M material included was taken from
+<a href="http://www.retroarchive.org/cpm/index.html">CP/M Commercial Software Archive</a>.
+<br>
+Some user written tools were taken from the
+<a href="http://www.classiccmp.org/cpmarchives/cpm/mirrors/oak.oakland.edu/pub/">Oak CP/M archive</a>.
+<br>
+Various programs from the Walnut Creek CP/M CD-ROM have been used too,
+an online copy is available
+<a href="http://www.retroarchive.org/cpm/cdrom/">here</a>.
+<br>
+The UCSD p-System on 8" disk images is available at
+<a href="http://www.bitsavers.org/bits/UCSD_Pascal/">Bitsavers</a>.
+<br>
+For documentation and software of the old machines you should visit
+<a href="http://bitsavers.trailing-edge.com/">Bitsavers</a> anyway.
+
+<a name="dri_quick"></a>
+<p><b><font size="5">Quickstart to run the Digital Research OS's:</font></b></p>
+<ol>
+<li><a href="#download">Download</a> the <b>z80pack</b> source archive</li>
+<li>Unpack the source archive in your home directory:
+<b>tar xzvf z80pack-x.y.tgz</b></li>
+<li>Compile the CP/M emulation:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim/srcsim</b></li>
+<li><b>make -f Makefile.operating-system</b></li>
+<li><b>make -f Makefile.operating-system clean</b></li>
+</ol>
+</li>
+<li>Compile support programs, some are needed for the emulation:
+<ol>
+<li>Releases before 1.15: <b>cd ~/z80pack-x.y/cpmsim/srccpm2</b>,
+Releases 1.15 and later: <b>cd ~/z80pack-x.y/cpmsim/srctools</b></li>
+<li><b>make</b></li>
+<li><b>make clean</b></li>
+</ol>
+</li>
+<li>MAKE BACKUPS OF THE BOOTABLE DISK IMAGES:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim/disks/library</b></li>
+<li><b>cp -p * ../backups</b></li>
+</ol>
+</li>
+<li>To run CP/M 2.2:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim</b></li>
+<li><b>./cpm2</b></li>
+<li>To leave the emulation type <b>a:bye</b>. This program executes a
+Z80 HALT instruction which terminates the emulator.</li>
+</ol>
+</li>
+<li>To run CP/M 3:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim</b></li>
+<li><b>./cpm3</b></li>
+<li>To leave the emulation type <b>a:bye</b>. This program executes a
+Z80 HALT instruction which terminates the emulator.</li>
+</ol>
+</li>
+<li>To run MP/M 2:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim</b></li>
+<li><b>./mpm</b>
+<br>
+This boots CP/M 2.2, the system tracks of the  disk do not contain the
+<b>mpmldr</b> program.
+To boot MP/M type <b>mpmldr</b> which runs the loader under CP/M 2.2 and
+boots the MP/M 2 system from the disks.</li>
+<li>To leave the emulation type <b>a:bye</b>. This program executes a Z80
+HALT instruction which terminates the emulation.
+</ol>
+</li>
+<li>To exchange files between the UNIX host and the CP/M disk images
+<a href="#download">download</a> and install <b>cpmtools</b>. The emulator
+uses 8" SD disk drives as the first 4 drives, which also is the
+default used in <b>cpmtools</b> version 2.17 at the time of this writing.
+In case it changes sometime, the disk definition is:
+<br>
+<pre>
+	diskdef ibm-3740
+	  seclen 128
+	  tracks 77
+	  sectrk 26
+	  blocksize 1024
+	  maxdir 64
+	  skew 6
+	  boottrk 2
+	  os p2dos
+	end
+</pre>
+Please note that the data tracks have a skew of 6, but the system tracks
+have a skew of 1, because I never implemented skews in the UNIX putsys
+programs. Using the correct skew made sense with Shugart floppy disk drives
+from 1976. Nowadays with SSD's used in personal computers transferring
+500 MB/s and more the skew is only used for compatibility reasons.
+<p>
+To access the 4 MB harddisk image of <b>z80pack</b> verify the following disk
+definition in <b>/usr/local/share/diskdefs</b>:
+<br>
+<pre>
+	diskdef z80pack-hd
+	  seclen 128
+	  tracks 255
+	  sectrk 128
+	  blocksize 2048
+	  maxdir 1024
+	  skew 0
+	  boottrk 0
+	  os 2.2
+	end
+</pre>
+To access the 512 MB harddisk image verify this disk definition in
+<b>/usr/local/share/diskdefs</b>:
+<br>
+<pre>
+	diskdef z80pack-hdb
+	  seclen 128
+	  tracks 256
+	  sectrk 16384
+	  blocksize 16384
+	  maxdir 8192
+	  skew 0
+	  boottrk 0
+	  os 2.2
+	end
+</pre>
+This definitions are included nowadys, if they are missing you need to
+add them.
+To access the 4 MB harddisk image (drives I: and J:) from the UNIX host
+always use the option <b>-f z80pack-hd</b> as in this example:
+<b>cpmls -f z80pack-hd disks/drivei.cpm</b>.
+Do not forget to use it, specially when copying files to the disk,
+without this option the harddisk image will be destroyed. Lets hope
+you made backup copies of the disk images.
+<p>
+Same with the 512 MB drive P:, always use the option <b>-f z80pack-hdb</b>
+to access this drive file.
+</li>
+<li>Start reading <a href="#documentation">documentation</a>, understanding
+the disk image layout under <b>~/z80pack-x.y/cpmsim/disks</b> is essential.
+</li>
+</ol>
+
+<a name="ucsd_quick"></a>
+<p><b><font size="5">Quickstart to run UCSD p-System:</font></b></p>
+<ol>
+<li><a href="#download">Download</a> the <b>z80pack</b> source archive</li>
+<li>Unpack the source archive in your home directory:
+<b>tar xzvf z80pack-x.y.tgz</b></li>
+<li>Compile the CP/M emulation:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim/srcsim</b></li>
+<li><b>make -f Makefile.operating-system</b></li>
+<li><b>make -f Makefile.operating-system clean</b></li>
+</ol>
+</li>
+<li>Compile support programs, some are needed for the emulation:
+<ol>
+<li>Releases before 1.15: <b>cd ~/z80pack-x.y/cpmsim/srccpm2</b>,
+Releases 1.15 and later: <b>cd ~/z80pack-x.y/cpmsim/srctools</b></li>
+<li><b>make</b></li>
+<li><b>make clean</b></li>
+</ol>
+<li><a href="#download">Download</a> the UCSD boot images</li>
+<li>Unpack the archive in ~/z80pack-x.y/cpmsim:
+<b>tar xzvf ucsd-ix.tgz</b></li>
+<li>MAKE BACKUPS OF THE BOOTABLE DISK IMAGES:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim/disks/library</b></li>
+<li><b>cp -p * ../backups</b></li>
+</ol>
+</li>
+<li>To run UCSD p-System:
+<ol>
+<li><b>cd ~/z80pack-x.y/cpmsim</b></li>
+<li><b>./ucsd-i4</b> or <b>./ucsd-i5</b> or <b>./ucsd-ii</b> or <b>./ucsd-iv</b></li>
+<li>To leave the emulation first shutdown the UCSD p-System from main menu
+with the H command, then abort <b>cpmsim</b> with <b>CTRL-\</b></li>
+</ol>
+</li>
+<li>To exchange files between the UNIX host and UCSD disk images
+<a href="#download">download</a> and install <b>UCSD filesystem tools</b>.</li>
+</ol>
+
+<a name="download"></a>
+<p><b><font size="5">Downloads:</font></b></p>
+<table class="htbl" border="1" cellspacing="2" cellpadding="4">
+<tr>
+<th colspan="2">UNIX host programs</th>
+</tr>
+<tr>
+<td>Z80/8080 CPU simulation, Z80 cross assembler, CP/M system simulation
+including boot disk images with CP/M 2.2, CP/M 3, MP/M 2 and a harddisk image
+with many CP/M tools, language compilers etc., simulations of the
+Altair, IMSAI and Cromemco systems</td>
+<td valign="top"><a href="ftp/">Download</a></td>
+</tr>
+<tr>
+<td>UNIX tools to access CP/M disk images, highly recommended</td>
+<td valign="top"><a href="http://www.moria.de/~michael/cpmtools/">Link</a></td>
+</tr>
+<tr>
+<td>UNIX tools to access UCSD p-System disk images, highly recommended</td>
+<td valign="top"><a href="http://ucsd-psystem-fs.sourceforge.net/">Link</a></td>
+</tr>
+<tr>
+<td>Intel PL/M-80 Cross Compiler 2.0 setup for UNIX systems. Requires
+GNU Fortran 77 (f77) or GNU Fortran 95 (gfortran) compiler</td>
+<td valign="top"><a href="ftp/plm80-2.0.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Intel PL/M-80 Cross Compiler 4.0 setup for UNIX systems. Requires
+GNU Fortran 77 (f77) or GNU Fortran 95 (gfortran) compiler.
+Includes sources and Makefile only, can be installed together with
+V 2.0 without filename clashes.</td>
+<td valign="top"><a href="ftp/plm80-4.0.tgz">Download</a></td>
+</tr>
+<tr>
+<td>
+The Intel 8080 Macro Assembler Version 3.0 Fortran sources were recovered
+from an old Mainframe computer. I have ported the software to UNIX systems
+with GNU Fortran 77 (f77) or GNU Fortran 95 (gfortran) compiler.
+</td>
+<td valign="top"><a href="ftp/mac80.tgz">Download</a></td>
+</tr>
+<tr>
+<td>
+The Intel Software Simulation of the MCS-8 8080 CPU and Memory Version 2.2
+sources were recovered from an old Mainframe computer. I have ported the
+software to UNIX systems with GNU Fortran 77 (f77) or GNU Fortran 95
+(gfortran) compiler.
+</td>
+<td valign="top"><a href="ftp/interp80.tgz">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Microsoft Windows host programs</th>
+</tr>
+<tr>
+<td>
+Ready to run binary distribution of the Altair and IMSAI emulations, runs
+under Windows XP and later, and doesn't require any UNIX knowledge.
+This Windows package is based on the Windows port of the frontpanel
+library, which was contributed by Stefano Bodrato. The package includes
+bootable CP/M disk images for both machines.
+</td>
+<td valign="top"><a href="ftp/z80pack-windows.zip">Download</a></td>
+</tr>
+<tr>
+<td>Roger Ivie's Windows 2K port of z80pack</td>
+<td valign="top"><a href="http://anachronda.homeunix.com:8000/~rivie/WinSim/">Link</a></td>
+</tr>
+<tr>
+<th colspan="2">Disk images with Digital Research OS sources</th>
+</tr>
+<tr>
+<td>CP/M 2.0 source disk images with build scripts to build a
+bootable disk</td>
+<td valign="top"><a href="ftp/cpm20src.tgz">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 2.2 source disk images with build scripts to build a
+bootable disk</td>
+<td valign="top"><a href="ftp/cpm22src.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Contents of the above disk images in a zip archive as requested</td>
+<td valign="top"><a href="ftp/cpm22src.zip">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 2.2 source disk image with some of the official Digital Research
+patches applied to the sources. This download contains the harddisk image
+and shell script for cpmsim to mount disks. The original source images need
+to be installed first to get the tool disks too.</td>
+<td valign="top"><a href="ftp/cpm22src-pat.tgz">Download</a></td>
+</tr>
+<tr>
+<td>All the sources from the disk image above in a zip archive</td>
+<td valign="top"><a href="ftp/cpm22src-pat.zip">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 3 source disk images with build scripts</td>
+<td valign="top"><a href="ftp/cpm3src.tgz">Download</a></td>
+</tr>
+<tr>
+<td>All the files from the disk images above in a zip archive</td>
+<td valign="top"><a href="ftp/cpm3src.zip">Download</a></td>
+</tr>
+<tr>
+<td>MP/M 2 source disk images with build scripts</td>
+<td valign="top"><a href="ftp/mpmsrc.tgz">Download</a></td>
+</tr>
+<tr>
+<td>All the files from the disk images above in a zip archive</td>
+<td valign="top"><a href="ftp/mpmsrc.zip">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Bootable disk images with Digital Research CP/NET client and server</th>
+</tr>
+<tr>
+<td>Disk images with pre-configured CP/NET 1.0 MP/M server including customized sources</td>
+<td valign="top"><a href="ftp/mpm-net-1.0.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk images with pre-configured CP/NET 1.0 CP/M 2.2 client including customized sources</td>
+<td valign="top"><a href="ftp/cpm2-net-1.0.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk images with pre-configured CP/NET 1.1 MP/M server including customized sources</td>
+<td valign="top"><a href="ftp/mpm-net-1.1.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk images with pre-configured CP/NET 1.1 CP/M 2.2 client including customized sources</td>
+<td valign="top"><a href="ftp/cpm2-net-1.1.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk images with pre-configured CP/NET 1.2 MP/M server including customized sources</td>
+<td valign="top"><a href="ftp/mpm-net-1.2.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk images with pre-configured CP/NET 1.2 CP/M 2.2 client including customized sources</td>
+<td valign="top"><a href="ftp/cpm2-net-1.2.tgz">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Bootable disk images with older Digital Research CP/M versions</th>
+</tr>
+<tr>
+<td>Bootable disk image with the 1975 CP/M version, sources see below</td>
+<td valign="top"><a href="ftp/cpm1975.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Bootable disk image with CP/M 1.3, includes boot loader and BIOS sources</td>
+<td valign="top"><a href="ftp/cpm13.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Bootable disk image with CP/M 1.4, includes boot loader and BIOS sources</td>
+<td valign="top"><a href="ftp/cpm14.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Zip archive with the files from above CP/M 1.4 disk image. Please note,
+that the files BYE.COM (leaves Z80 CP/M emulation) and CLS.COM (clear
+screen of ANSI terminals), were added by me and are not part of a
+DRI CP/M distribution.</td>
+<td valign="top"><a href="ftp/cpm14.zip">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Bootable disk images with different Digital Research CP/M configurations</th>
+</tr>
+<tr>
+<td>63K CP/M 2.2 with check vectors active for both cpmsim HD's. Prevents
+corruption of the i: and j: disks when writing to them with cpmtools,
+while the emulation is running.</td>
+<td valign="top"><a href="ftp/cpm63k.tgz">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 3 disks not using Z80 instructions, so that it runs too on 8080.
+Also check vectors active for harddisks i:, j: and p:, to prevent
+disk corruption.</td>
+<td valign="top"><a href="ftp/cpm3-8080.tgz">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Disk images with UCSD p-System for Z80</th>
+</tr>
+<tr>
+<td>CP/M 2.2 disk image with all sources required to build a boot record for
+UCSD p-System I.4, I.5 and II.0. Do not use this for IV.0.</td>
+<td valign="top"><a href="ftp/ucsd-booter.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with the UCSD p-System I.4 Z80 system disk, ready to boot
+under cpmsim. The boot code build with the disk above is written to
+system disk 1 already. The system is pre-configured to work with
+VT-100 and ANSI compatible terminals</td>
+<td valign="top"><a href="ftp/ucsd-i4.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Two disk images with the UCSD p-System I.5 Z80 system disks, ready to boot
+under cpmsim. The boot code build with the disk above is written to
+system disk 1 already. The system is pre-configured to work with
+VT-100 and ANSI compatible terminals</td>
+<td valign="top"><a href="ftp/ucsd-i5.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Two disk images with the UCSD p-System II.0 Z80 system disks, ready to boot
+under cpmsim. The boot code build with the disk above is written to
+system disk 1 already. The system is pre-configured to work with
+VT-100 and ANSI compatible terminals</td>
+<td valign="top"><a href="ftp/ucsd-ii.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Two disk images with the UCSD p-System IV.0 Z80 system disks, ready to boot
+under cpmsim.  The system is pre-configured to work with
+VT-100 and ANSI compatible terminals</td>
+<td valign="top"><a href="ftp/ucsd-iv.tgz">Download</a></td>
+</tr>
+<tr>
+<td>8" disk images with UCSD p-System I.5 for Z80, these disks have been used
+to build the system for z80pack.</td>
+<td valign="top"><a href="ftp/ucsd-i5-disks.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with the modified I.5 p-code interpreter sources, used to build
+the system disks for z80pack</td>
+<td valign="top"><a href="ftp/ucsd-i5-interp.tgz">Download</a></td>
+</tr>
+<tr>
+<td>8" disk images with UCSD p-System II.0 for Z80, these disks have been used
+to build the system for z80pack. Please note that the disk images
+U132.A_PASCAL_COMPILER_SOURCE.raw and U128_L2_YALOE_SOURCE.raw at bitsavers
+are incomplete. This archive includes repaired images.</td>
+<td valign="top"><a href="ftp/ucsd-ii-disks.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with the modified II.0 p-code interpreter sources, used to build
+the system disks for z80pack</td>
+<td valign="top"><a href="ftp/ucsd-ii-interp.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with the linkable IV.0 p-code interpreter objects, used to build
+the system disks for z80pack</td>
+<td valign="top"><a href="ftp/ucsd-iv-interp.tgz">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Other 8080/Z80 operating systems</th>
+</tr>
+<tr>
+<td>CP/M 2.2 with ZCPR1 replacement for CCP, includes all sources and documentation</td>
+<td valign="top"><a href="ftp/zcpr1.tgz">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 2.2 with ZSDOS/ZCPR1 replacement for BDOS/CCP, inludes ZSDOS source
+and documentation. Build based on disk above.</td>
+<td valign="top"><a href="ftp/zsdos.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Pre-configured NZ-COM Z-System with ZSDOS/ZCPR3.4 for CP/M 2.2, includes documentation</td>
+<td valign="top"><a href="ftp/nzcom.tgz">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 2.2 with Z80CCP replacement for CCP, includes source</td>
+<td valign="top"><a href="ftp/z80ccp.tgz">Download</a></td>
+</tr>
+<tr>
+<td>QP/M, a Z80 CP/M 2.2 clone with advanced features, BIOS with clock
+support available
+<a href="ftp/bios-source/">here</a></td>
+<td valign="top"><a href="http://www.microcodeconsulting.com/z80/qpm.htm">Link</a></td>
+</tr>
+<tr>
+<td>QP/M disk ready to boot, for those who don't wish to build themself</td>
+<td valign="top"><a href="ftp/qpm.tgz">Download</a></td>
+</tr>
+<tr>
+<td>DOS+, a Z80 CP/M 2.2 clone with advanced features, BIOS with clock
+support available
+<a href="ftp/bios-source/">here</a></td>
+<td valign="top"><a href="http://www.classiccmp.org/cpmarchives/cpm/mirrors/cbfalconer.home.att.net/download/cpm/index.htm">Link</a></td>
+</tr>
+<tr>
+<td>DOS+ disk ready to boot, for those who don't wish to build themself</td>
+<td valign="top"><a href="ftp/dosplus.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with pre-installed ConIX shareware system for CP/M 2.2</td>
+<td valign="top"><a href="ftp/conix.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with MicroShell, UNIX shell features for CP/M. A PDF manual
+is available too below under Documentation.</td>
+<td valign="top"><a href="ftp/microshell.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with Microtools and other UNIX-like utilities for CP/M. A
+PDF manual is available too below.</td>
+<td valign="top"><a href="ftp/microtools.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Floppy disk and harddisk image with FUZIX build (26-JAN-2016) ready
+to use. This is work in progress and intended for those who want to have
+a look at it first, without building them self. It needs more work,
+but the OS boots, one can login and execute simple UNIX like
+programs. It is suggested to build it your self, instructions
+how to do this can be read here:
+<br>
+<a href="http://sinrega.org/?p=218">Running Alan Cox's Fuzix OS on a Z80 emulator</a>
+</td>
+<td valign="top"><a href="ftp/fuzix.tgz">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Disk images with CP/M application software</th>
+</tr>
+<!--
+<tr>
+<td>Harddisk image that replaces the tools disk from a distributed z80pack
+release.  I keep adding programs to the disk in the current development
+version and you might want it. This replaces disks/library/hd-tools.dsk,
+backup if you added files to your disk!</td>
+<td valign="top"><a href="ftp/tools-disk.tgz">Download</a></td>
+</tr>
+-->
+<tr>
+<td>Disk image with Word-Master 1.07 original files, as well as assembler
+patch sources for various terminals. Includes patch source for ANSI terminal
+that I am using and documentation also is available below.</td>
+<td valign="top"><a href="ftp/wm.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Vedit 1.34. Includes configured binary for usage with
+ANSI terminal and a keymap that allows to use the cursor keys. All
+documentation is included on the disk.</td>
+<td valign="top"><a href="ftp/vedit.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with WordStar 3.3 already configured for VT-100 terminal</td>
+<td valign="top"><a href="ftp/ws33.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with WordStar 4.0 already configured for VT-100 terminal</td>
+<td valign="top"><a href="ftp/ws40.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with ZDE 1.6. Includes configured binary for usage with
+ANSI terminal. Also this editor allows usage of the cursor keys with
+an ANSI terminal.</td>
+<td valign="top"><a href="ftp/zde.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk images with more complete ISIS tools and submit script
+to compile PL/M programs</td>
+<td valign="top"><a href="ftp/isis.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Microsoft Fortran-80 compiler version 3.44</td>
+<td valign="top"><a href="ftp/f80-344.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Palo Alto Tinybasic source and executable. This is the
+improved version with SAVE and LOAD for CP/M. Includes Tiny Startrek BASIC
+program.</td>
+<td valign="top"><a href="ftp/tinybasic.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with Gordon Eubanks BASIC-E compiler sources, build scripts
+and BASIC example programs. Requires ISIS tools to build from sources,
+precompiled executables included.</td>
+<td valign="top"><a href="ftp/basice.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with Mark Williams Company XYBASIC sources, build scripts
+and executables with binary and BCD floating point arithmetic. For
+documentation and the very interesting story how it was written read
+here:
+<br>
+<a href="http://nesssoftware.com/www/cpm_source.php">XYBASIC and CP/M</a>
+<br>
+<a href="http://nesssoftware.com/home/mwc/XYBASIC.php">XYBASIC</a>
+<br>
+The sources are made available here by generous permission of Robert Swartz,
+my former boss at MWC, thanks Bob, I appreciate it.
+</td>
+<td valign="top"><a href="ftp/xybasic.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with LLL Basic interpreter, published by Dr. Dobbs 1977.
+Disk includes sources, executable and example program.</td>
+<td valign="top"><a href="ftp/lllbasic.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Microsoft Basic interpreters. Included are
+BASIC Rev. 4.51, BASIC-80 Rev. 5.21 and BASIC-85 Rev. 5.29.
+Also includes Super Startrek BASIC program adapted for ANSI terminals.</td>
+<td valign="top"><a href="ftp/mbasic.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Microsoft Basic compiler 5.3</td>
+<td valign="top"><a href="ftp/bascom.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with DRI CBASIC 2 and CB80 2.0 Basic compiler. Includes
+demo sources for GSX-80 graphics programming.</td>
+<td valign="top"><a href="ftp/cb80.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with DRI GSX-80 version 1.0 Graphics Extension, includes source
+and example to use with my UNIX xterm Tektronix 4014 driver. Run
+the CP/M emulation from X11 xterm, not any other terminal, to
+use this.</td>
+<td valign="top"><a href="ftp/gsx80-1.0.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with DRI GSX-80 version 1.1 Graphics Extension.
+Includes example to use with my UNIX xterm Tektronix 4014 driver. Run
+the CP/M emulation from X11 xterm, not any other terminal, to
+use this.</td>
+<td valign="top"><a href="ftp/gsx80-1.1.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with GSX-80 example programs in various programming
+languages.</td>
+<td valign="top"><a href="ftp/gsxprg.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with GSX-80 attached to Microsoft mbasic interpreter
+with some example BASIC programs.</td>
+<td valign="top"><a href="ftp/gsxbasic.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with DRI's DR Graph application, a chart tool using
+GSX-80.</td>
+<td valign="top"><a href="ftp/drgraph.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with DRI's DR Draw application, a drawing tool using
+GSX-80.</td>
+<td valign="top"><a href="ftp/drdraw.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with ALGOL-M compiler for CP/M written by Gary Kildalls
+students at Naval Postgraduate School</td>
+<td valign="top"><a href="ftp/algol-m.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with John A. Starkweathers 8080 Pilot interpreter, published
+by Dr. Dobbs 1977, adapted to CP/M. Disk includes sources, executable and
+example program.</td>
+<td valign="top"><a href="ftp/pilot.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Comal-80 Rev. 2.10 for CP/M, preconfigured for
+VT-100/ANSI terminals</td>
+<td valign="top"><a href="ftp/comal.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Z80MR, a Public Domain Z80 macro assembler for CP/M</td>
+<td valign="top"><a href="ftp/z80mr.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk images with figFORTH 1.1 and 1.3 for 8080 and screens with editor and
+8080 assembler. The sources are a little bit modified, original sources
+see below.</td>
+<td valign="top"><a href="ftp/fig80.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with CP/M FORTH implementations using the filesystem
+as block device. A readme file in user area 0 lists which FORTH systems are
+in the various user areas.</td>
+<td valign="top"><a href="ftp/forth.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Turbo Pascal 3.01A pre-configured for ANSI terminal emulations</td>
+<td valign="top"><a href="ftp/tp301a.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Q/C C compiler version 3.1a for Z80</td>
+<td valign="top"><a href="ftp/qc31a.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with C/80 C compiler version 3.1 for 8080</td>
+<td valign="top"><a href="ftp/c80.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with Z80 Hitech-C compiler V3.09 for CP/M.
+The compiler is configured to be used from harddisk J: and an additional
+make utility for CP/M 3 with example is included also.</td>
+<td valign="top"><a href="ftp/hd-htc.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with Kermit 4.11 build for cpmsim TCP/IP UART</td>
+<td valign="top"><a href="ftp/kermit.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with CP/M 3 system extensions like multiline command
+history. The disk includes all sources as the RSX's as well, this software
+requires CP/M 3.</td>
+<td valign="top"><a href="ftp/cpm3tools.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Harddisk image with the CP/M help system based on help version 2.0.
+The help program is configured to use drive J: as default. Help files
+for frequently used programs are included, as well as the source for
+the help program.</td>
+<td valign="top"><a href="ftp/help.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Colossal Cave adventure, version A02, 350 points</td>
+<td valign="top"><a href="ftp/adv-a02.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with A02 sources and build scripts for Microsoft
+Fortran-80 under CP/M and Cromemco Fortran IV under CDOS</td>
+<td valign="top"><a href="ftp/adv-a02-src.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Colossal Cave adventure, version B00, 550 points.
+Requires Z80 CPU.</td>
+<td valign="top"><a href="ftp/adv-b00.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Colossal Cave adventure, version B01, 550 points.
+Identical with B00 but runs on the 8080 CPU.</td>
+<td valign="top"><a href="ftp/adv-b01.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Colossal Cave adventure, version B03, 580 points</td>
+<td valign="top"><a href="ftp/adv-b03.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with games Rogue 1.7 and Wanderer 2.2. The disk includes
+QTERM patch source for the VT-100 terminal and patched executables to
+run with VT-100 or other ANSI compatible terminals.</td>
+<td valign="top"><a href="ftp/rogue.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Nemesis and Dungeon Master rogue like role playing game. The
+terminal definition already is configured for ANSI terminals.
+The archive includes the disk image and the PDF game manual.
+Play with CPU speed set at 4 MHz.</td>
+<td valign="top"><a href="ftp/nemesis.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Infocom Planetfall and Hitchhikers Guide to the
+Galaxy text adventures, both patched for ANSI terminals</td>
+<td valign="top"><a href="ftp/infocom.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with CP/M Chess programs</td>
+<td valign="top"><a href="ftp/chess.tgz">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Disk images with UCSD p-System application software</th>
+</tr>
+<tr>
+<td>Two disk images with sources and ready to run program of Colossal
+Cave adventure, 500 points. Compiled and tested with II.0.</td>
+<td valign="top"><a href="ftp/ucsd-adventure.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with Startrek game. Some procedure is to large for the I.5
+and II.0 compiler, so compiled and tested with IV.0.</td>
+<td valign="top"><a href="ftp/ucsd-startrek.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Disk image with games Blackjack, Othello and Chase. Compiled and tested
+with II.0.</td>
+<td valign="top"><a href="ftp/ucsd-games.tgz">Download</a></td>
+</tr>
+<tr>
+<td>Two disk images with sources, documentation and compiled programs
+(II.0 was used) of Prof. Ken Bowles Database Homework Project.
+This partially completed database starter project shows, how the p-System
+was used in the 80's at UCSD, to teach students the fine art of computer
+programming.</td>
+<td valign="top"><a href="ftp/ucsd-kbdb.tgz">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Software and Operation Manuals for front panel machines</th>
+</tr>
+<tr>
+<td>Manuals and software for the Altair 8800 computer system</td>
+<td valign="top"><a href="ftp/altair/">Download</a></td>
+</tr>
+<tr>
+<td>Manuals and software for the IMSAI 8080 computer system</td>
+<td valign="top"><a href="ftp/imsai/">Download</a></td>
+</tr>
+<tr>
+<td>Manuals and software for the Cromemco Z-1 computer system</td>
+<td valign="top"><a href="ftp/cromemco/">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Source files with tools and examples for various programming languages</th>
+</tr>
+<tr>
+<td>CP/M utilities written in PL/M-80 for the Intel PL/M-80 cross compiler</td>
+<td valign="top"><a href="ftp/source-examples/plm80/">Download</a></td>
+</tr>
+<tr>
+<td>PASCAL examples for playing with UCSD Pascal</td>
+<td valign="top"><a href="ftp/source-examples/pascal-ucsd/">Download</a></td>
+</tr>
+<tr>
+<td>PASCAL examples for playing with Turbo Pascal</td>
+<td valign="top"><a href="ftp/source-examples/pascal-turbo/">Download</a></td>
+</tr>
+<tr>
+<td>BASIC sources for BASIC-E compiler</td>
+<td valign="top"><a href="ftp/source-examples/basic-e/">Download</a></td>
+</tr>
+<tr>
+<th colspan="2">Other sources</th>
+</tr>
+<tr>
+<td>The 1975 CP/M sources found on CPMUG disk Vol 5. Original sources from
+the disk, as well as overworked versions to be used on cpmsim.</td>
+<td valign="top"><a href="ftp/sources/cpm1975/">Download</a></td>
+</tr>
+<tr>
+<td>8080 figFORTH 1.1 original source</td>
+<td valign="top"><a href="ftp/sources/forth/forth110.asm">Download</a></td>
+</tr>
+<tr>
+<td>
+8080 figFORTH 1.3 original source
+<br>
+(the block management for block size 1024 is broken, I doubt that this
+is an original F.I.G release)
+</td>
+<td valign="top"><a href="ftp/sources/forth/forth130.asm">Download</a></td>
+</tr>
+</table>
+
+<a name="documentation"></a>
+<p><b><font size="5">Documentation:</font></b></p>
+<table class="htbl" border="1" cellspacing="2" cellpadding="4">
+<tr>
+<th colspan="2">CP/M simulator related documentation</th>
+</tr>
+<tr>
+<td>Understanding disk images for the CP/M emulation</td>
+<td valign="top"><a href="doc_cpm_disks.html">Read</a></td>
+</tr>
+<tr>
+<td>The printer device under CP/M emulation</td>
+<td valign="top"><a href="doc_cpm_printer.html">Read</a></td>
+</tr>
+<tr>
+<td>The auxiliary device under CP/M emulation</td>
+<td valign="top"><a href="doc_cpm_auxiliary.html">Read</a></td>
+</tr>
+<tr>
+<td>TCP/IP networking</td>
+<td valign="top"><a href="doc_networking.html">Read</a></td>
+</tr>
+<tr>
+<td>Recompiling CP/M 2.0 from the sources</td>
+<td valign="top"><a href="doc_cpm20_src.html">Read</a></td>
+</tr>
+<tr>
+<td>Recompiling CP/M 2.2 from the sources</td>
+<td valign="top"><a href="doc_cpm22_src.html">Read</a></td>
+</tr>
+<tr>
+<td>Recompiling CP/M 3 from the sources</td>
+<td valign="top"><a href="doc_cpm3_src.html">Read</a></td>
+</tr>
+<tr>
+<td>Recompiling MP/M 2 from the sources</td>
+<td valign="top"><a href="doc_mpm_src.html">Read</a></td>
+</tr>
+<tr>
+<td>Using the ISIS environment under CP/M 2.2</td>
+<td valign="top"><a href="doc_isis_intro.html">Read</a></td>
+</tr>
+<tr>
+<td>The UCSD p-System for z80pack</td>
+<td valign="top"><a href="doc_ucsd.html">Read</a></td>
+</tr>
+<tr>
+<th colspan="2">Z80 simulator related documentation</th>
+</tr>
+<tr>
+<td>Installation and Test</td>
+<td valign="top"><a href="doc_sim_install.html">Read</a></td>
+</tr>
+<tr>
+<th colspan="2">Z80 cross assembler related documentation</th>
+</tr>
+<tr>
+<td>Installation and Test</td>
+<td valign="top"><a href="doc_asm_install.html">Read</a></td>
+</tr>
+<tr>
+<th colspan="2">Digital Research Documentation</th>
+</tr>
+<tr>
+<td>CP/M 2.2 Operating System Manual (HTML)</td>
+<td valign="top"><a href="cpm2/index.htm">Read</a></td>
+</tr>
+<tr>
+<td>CP/NET Network Operating System Reference Manual (HTML)</td>
+<td valign="top"><a href="cpnet/cpnet.htm">Read</a></td>
+</tr>
+<tr>
+<td>Link-80 Operator's Guide (HTML)</td>
+<td valign="top"><a href="link80/index.htm">Read</a></td>
+</tr>
+<tr>
+<td>CP/M 1.3 manual set (PDF)</td>
+<td valign="top"><a href="ftp/manuals/cpm-1.3/">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 1.4 manual set (PDF)</td>
+<td valign="top"><a href="ftp/manuals/cpm-1.4/">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 2.0 manual set (PDF)</td>
+<td valign="top"><a href="ftp/manuals/cpm-2.0/">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 2.2 manual set (PDF)</td>
+<td valign="top"><a href="ftp/manuals/cpm-2.2/">Download</a></td>
+</tr>
+<tr>
+<td>CP/M 3 manual set (PDF)</td>
+<td valign="top"><a href="ftp/manuals/cpm-3/">Download</a></td>
+</tr>
+<tr>
+<td>MP/M 2 manual set (PDF)</td>
+<td valign="top"><a href="ftp/manuals/mpm-2/">Download</a></td>
+</tr>
+<tr>
+<td>GSX-80 Graphics Extension Programmer's Guide at bitsavers (PDF)</td>
+<td valign="top"><a href="http://bitsavers.trailing-edge.com/pdf/digitalResearch/gsx/GSX-80_Graphics_Extension_Programmers_Guide_Nov82.pdf">Read</a></td>
+</tr>
+<tr>
+<td>CBASIC Compiler Language Graphics Guide at bitsavers (PDF)</td>
+<td valign="top"><a href="http://bitsavers.informatik.uni-stuttgart.de/pdf/digitalResearch/cb80/CBASIC_Compiler_Graphics_Guide_May83.pdf">Read</a></td>
+</tr>
+<tr>
+<td>CB-80 Language Reference Manual at bitsavers (PDF)</td>
+<td valign="top"><a href="http://bitsavers.informatik.uni-stuttgart.de/pdf/digitalResearch/cb80/CB-80_Language_Reference_Manual_Mar82.pdf">Read</a></td>
+</tr>
+<tr>
+<td>DR Graph Graphic Application User Guide at bitsavers (PDF)</td>
+<td valign="top"><a href="http://bitsavers.informatik.uni-stuttgart.de/pdf/digitalResearch/gsx/DR_Graph_Users_Guide_Jun83.pdf">Read</a></td>
+</tr>
+<tr>
+<td>DR Draw Graphic Application User Guide at bitsavers (PDF)</td>
+<td valign="top"><a href="http://bitsavers.informatik.uni-stuttgart.de/pdf/digitalResearch/gsx/DR_Draw_Users_Guide_Mar84.pdf">Read</a></td>
+</tr>
+<tr>
+<th colspan="2">UCSD p-System Documentation</th>
+</tr>
+<tr>
+<td>UCSD Pascal System I.4 Manual (PDF)</td>
+<td valign="top"><a href="ftp/manuals/UCSD/ucsdpascalvi4.pdf">Read</a></td>
+</tr>
+<tr>
+<td>UCSD Pascal System I.5 Manual (PDF)</td>
+<td valign="top"><a href="ftp/manuals/UCSD/ucsdpascalvi5.pdf">Read</a></td>
+</tr>
+<tr>
+<td>
+UCSD Pascal System II.0 User's Manual (PDF)
+<br>
+Also check <a href="http://bitsavers.org/pdf/univOfCalSanDiego/">Bitsavers</a>
+for more manuals.
+</td>
+<td valign="top"><a href="ftp/manuals/UCSD/ucsdpascalvii.pdf">Read</a></td>
+</tr>
+<tr>
+<td>Adaptable p-System IV Installation Guide (PDF)</td>
+<td valign="top"><a href="ftp/manuals/UCSD/Adaptable-pSystem-4.pdf">Read</a></td>
+</tr>
+<tr>
+<th colspan="2">Intel Documentation</th>
+</tr>
+<tr>
+<td>8080 Assembly Language Programming Manual, Rev B 1975 (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Intel/8080asmRevB_75.pdf">Read</a></td>
+</tr>
+<tr>
+<td>8080/8085 Assembly Language Programming Manual, 1978 (PDF)
+<br>
+This manual gives some more hints about the inner working of the 8080
+than earlier Intel publications for the 8080.</td>
+<td valign="top"><a href="ftp/manuals/Intel/8080_8085_asm_Nov78.pdf">Read</a></td>
+</tr>
+<tr>
+<td>PL/M-80 Language Summary</td>
+<td valign="top"><a href="doc_cpm_plm.html">Read</a></td>
+</tr>
+<tr>
+<td>PL/M-80 Programming Manual for the ISIS system (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Intel/Intel-PLM80-Compiler.pdf">Read</a></td>
+</tr>
+<tr>
+<td>ISIS-II User's Guide (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Intel/ISIS_user_manual.pdf">Read</a></td>
+</tr>
+<tr>
+<td>ISIS Internals, a collection of computer magazine articles and notes
+about the inner workings of the ISIS system (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Intel/ISIS_internals.pdf">Read</a></td>
+</tr>
+<tr>
+<th colspan="2">Other Documentation</th>
+</tr>
+<tr>
+<td>Manuals for MicroPro Word-Master (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Software/Word-Master_Manuals">Read</a></td>
+</tr>
+<tr>
+<td>figFORTH release 1.1 for 8080 Assembly Source Listing (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Software/fig-forth_8080_ver_11.pdf">Read</a></td>
+</tr>
+<tr>
+<td>figFORTH Installation Manual</td>
+<td valign="top"><a href="ftp/manuals/Software/fig_inst_manual.txt">Read</a></td>
+</tr>
+<tr>
+<td>Q/C Users's Manual, Version 3.2 (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Software/qc32.pdf">Read</a></td>
+</tr>
+<tr>
+<td>Microshell, UNIX Features for CP/M, User's Manual Version 2.0 (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Software/microshell.pdf">Read</a></td>
+</tr>
+<tr>
+<td>Microshell Newsletter, usage hints and patches for problems (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Software/microsnews.pdf">Read</a></td>
+</tr>
+<tr>
+<td>Microtools, UNIX-like utilities for CP/M, User's Manual (PDF)</td>
+<td valign="top"><a href="ftp/manuals/Software/microtools.pdf">Read</a></td>
+</tr>
+<tr>
+<td>Manual for Mark Williams Company XYBASIC, covers CP/M version as well
+as standalone versions. This PDF was recreated by Steve in 2014 using
+the MWC COHERENT version of troff.</td>
+<td valign="top"><a href="ftp/manuals/Software/XYBman_r6.pdf">Read</a></td>
+</tr>
+</table>
+
+<p><b><font size="5">Support:</font></b></p>
+This is an Open Source spare time project and there is no official support.
+If you can't help your self, a good place to discuss technical issues or
+ask about help is
+<a href="news:comp.os.cpm">Usenet newsgroup comp.os.cpm</a>
+or
+<a href="https://groups.google.com/forum/#!forum/comp.os.cpm">
+Google Groups comp.os.cpm</a>.
+<br>
+Then there are lots of Web forums about classic computing, microcontroller
+programming and so on. In many you'll find members nowadays, quite familiar
+with z80pack.
+<br>
+If nothing helps and you need to talk to anyone involved in this project,
+you'll find working email addresses inside the download package, none
+provided on this Web site anymore, because of massive abusage.
+
+<p><b><font size="5">Copyright, License and all that stuff:</font></b></p>
+I often get asked: may I do ... with <b>z80pack</b>?
+<br>
+The answer just is: yes! Everything you can download from this Web site
+that says: Copyright (C) ... Udo Munk is covered by the BSD license in
+file COPYING, you'll find in various directories of the <b>z80pack</b>
+distribution. You can do whatever you want with this software, you don't
+need any other permissions from me for whatever you intend to do.
+That includes commercial usage of this software. This software was written
+for using it, so use it.
+<br>
+Of course disk images with Digital Research software, Intel software,
+UCSD software, Microsoft software, Borland software and so on and so forth
+are not covered by this license! This software was not written by me, so
+it doesn't have my Copyright, so it is re-distributed under different license
+terms. To the best of my knowledge all this ancient software
+may be re-distributed for non profit hobby usage. If you find software here
+owned by you, that shall not be distributed, please let me know and it will
+get removed from this site.
+<br>
+Software of third parties include a file COPYING in the directory together
+with this software, explaining the terms of usage that the author of the
+software grants. This are Open Source licenses of some kind, for using the
+software in other projects the license should be read and the software used
+in conformance with the license.
+<p>
+License in use for code written by me:
+<p>
+<p>
+<pre>
+Copyright (c) 1987-2016 Udo Munk
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+</pre>
+
+
+<a name="links"></a>
+
+<p><b><font size="5">Bibliography:</font></b></p>
+I still have Z80 data sheets from Zilog, Mostek and Hitachi
+and I also still have my CP/M 2, CP/M 3 and MP/M manuals and a bunch
+of other related books. All this material was used as reference to write
+this software. Unfortunately all these manuals are out of print, so
+it won't help anyone to reference it here. Instead I'm trying to
+provide links to online documentations, which will help you
+understanding this software.
+<ol>
+<li>
+Everything to know about the Z80 including original Zilog data sheets
+can be read <a href="http://www.z80.info/">here</a>.
+</li>
+<li>
+Digital Research manuals for CP/M 1, CP/M 2, CP/M 3, MP/M 2, assemblers,
+linkers and compilers are archived
+<a href="http://www.cpm.z80.de/drilib.html">here</a>.
+</li>
+</ol>
+
+<p><b><font size="5">Guides for z80pack:</font></b></p>
+The documentation for z80pack is intentionally terse, to prevent a
+wall of text for those who are familiar with the old systems.
+Others have written pretty good guides for using z80pack, so
+reading these might help you.
+<p>
+<a href="http://techtinkering.com/2008/10/17/setting-up-z80pack-to-create-an-emulated-cpm-system/">Setting up z80pack to Create an Emulated CP/M System</a>
+<br>
+<a href="http://planemo.org/retro/z80pack-cpm-emulator-nz-com/">Z80Pack CP/M Emulator and NZ-COM</a>
+<p>
+If you wrote guides like these just let me know, so that it can
+be linked here.
+
+<p><b><font size="5">More CP/M related links:</font></b></p>
+<a href="http://www.retrotechnology.com/herbs_stuff/s_point.html">
+News & Pointers: S-100, CP/M and related sites</a>
+<br>
+<a href="http://www.gaby.de/ecpm.htm">
+Gaby's Homepage for CP/M and Computer History</a>
+<br>
+<a href="http://www.classiccmp.org/cpmarchives/">
+The Humongous CP/M Software Archives</a>
+<br>
+<a href="http://www.seasip.demon.co.uk/Cpm/index.html">
+CP/M pages by John Elliott</a>
+
+<p><b><font size="5">Informations about the UCSD p-System:</font></b></p>
+<a href="http://en.wikipedia.org/wiki/UCSD_Pascal">
+UCSD Pascal Wikipedia</a>
+<br>
+<a href="http://www.ics.uci.edu/~archive/documentation/p-system/p-system.html">
+p-System: Description, Background, Utilities</a>
+<br>
+<a href="http://www.threedee.com/jcm/psystem/">
+The UCSD p-System Museum</a>
+<br>
+
+<p><b><font size="5">Other emulation projects based on z80pack:</font></b></p>
+<a href="http://umlautllama.com/w2/?action=view&page=iPhone%20Z80%20Engine">iPhone Z80 Engine</a>
+<br>
+<a href="http://jaromir.xf.cz/cpm/cpm_intro.html">CP/M on a PIC32 microcontroller</a>
+<br>
+<a href="http://www.zonadepruebas.com/viewtopic.php?t=4359&p=31725">Duinomite Mini con CP/M80</a>
+<br>
+<br>
+<a href="http://heathkit.garlanger.com/emulator/">H89 Emulator - The Virtual H89 All-in-One Computer</a>
+<br>
+<a href="http://www.jbox.dk/rc702/simulator.shtm">Regnecentralen RC700 Simulator</a>
+<p>
+<p>
+If you are doing projects like these just let me know, so that your
+project web site can be linked here.
+
+<p><b><font size="5">Other operating systems running on cpmsim:</font></b></p>
+<a href="http://www.viara.eu/en/zpacktd.htm">Turbodos port by Mario Viara</a>
+<br>
+<a href="http://www.freertos.org/Interactive_Frames/Open_Frames.html?http://interactive.freertos.org/entries/27970098-Z80-porting-Z80pack-Virtual-machine-">FreeRTOS port by Mario Viara</a>
+<br>
+<a href="https://github.com/EtchedPixels/FUZIX/wiki">FUZIX by Alan Cox</a>
+
+<p><b><font size="5">Other UNIX Z80 emulations:</font></b></p>
+<a href="http://www.mathematik.uni-ulm.de/users/ag/yaze-ag/">
+YAZE-AG - Yet Another Z80 Emulator by AG</a>
+<br>
+<a href="http://www.schorn.ch/cpm/intro.html">
+The SIMH Altair 8800 Z80 simulator</a>
+<br>
+
+<p><b><font size="5">Informations about the Altair 8800:</font></b></p>
+<a href="http://www.virtualaltair.com/">The Virtual Altair Museum</a>
+<br>
+<a href="http://en.wikipedia.org/wiki/Altair_8800">Altair 8800 Wikipedia</a>
+<br>
+<a href="http://www.altairkit.com/">Home of the New Altair 8800 Kit</a>
+<br>
+<a href="http://altairclone.com">Altair 8800 Clone</a>
+<br>
+<a href="http://www.altair32.com/">Emulator of Altair 8800 Computer</a>
+<br>
+<a href="http://www.youtube.com/watch?v=vAhp_LzvSWk">MITS Altair 8800 demonstration</a>
+<br>
+
+<p><b><font size="5">Informations about the IMSAI 8080:</font></b></p>
+<a href="http://www.imsai.net/">The Official IMSAI Web Site</a>
+<br>
+<a href="http://www.imsai.net/products/imsai_series_two_project.htm">The IMSAI Series Two project</a>
+<br>
+<a href="http://en.wikipedia.org/wiki/IMSAI">IMSAI 8080 Wikipedia</a>
+<br>
+<a href="http://www.youtube.com/watch?v=WHi1b1esV5s">IMSAI Front Panel Demo</a>
+<br>
+
+<p><b><font size="5">Informations about the Cromemco Z-1:</font></b></p>
+<a href="http://www.historyofpersonalcomputing.com/cromemco-z-1/">Short history about Cromemco and the Z-1</a>
+<br>
+<a href="http://infolab.stanford.edu/pub/voy/museum/pictures/display/3-5-CROMEMCO.html">History about Cromemco at Stanford, interesting read but not much about the Z-1</a>
+<br>
+<a href="http://maben.homeip.net/static/s100/cromemco/">Huge collection of Cromemco manuals, firmware, operating systems and software</a>
+<br>
+
+
+<p><a href="../">Home</a></p>
+
+</body>
+
+</html>

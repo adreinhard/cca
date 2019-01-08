@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+.centered {text-align:center}
+.ltext {text-align:left}
+.rtext {text-align:right}
+.ltd {text-align:left; padding:4px}
+.ctd {text-align:center; padding:4px}
+.rtd {text-align:right; padding:4px}
+.invis {color:#d0e0ff}
+.hung {text-indent:-0.5cm; margin-left:1cm}
+.indented {margin-left:0.5cm}
+.indented2 {margin-left:1.0cm}
+.dotted {border: 1px dotted #000000; border-style: none none dotted; }
+table.frame {max-width:700px; width:98%; margin:auto}
+table.centab {margin:auto}
+</style>
+<title>Adv550 downloads</title>
+<style type="text/css">
+span.red {color: red }
+.italic {font-style: italic}
+.regular {font-style: regular}
+</style>
+<script language="JavaScript" type="b66a1a7829675e72e55aa360-text/javascript"><!--
+  function whatOS(el)
+  {
+    var os = el.value;
+    var ios = document.getElementById('ios');
+    el.className = os ? 'regular' : 'italic';
+    document.getElementById('linux').style.display='none';
+    document.getElementById('osx').style.display='none';
+    if (ios) ios.style.display='none';
+    document.getElementById('windows').style.display='none';
+    document.getElementById('win10').style.display='none';
+    document.getElementById('js').style.display='none';
+    document.getElementById('dos').style.display='none';
+    document.getElementById('console').style.display='none';
+    if (os == 'linux')
+      document.getElementById('linux').style.display='';
+    if (os == 'osx')
+      document.getElementById('osx').style.display='';
+    if (os == 'ios')
+      document.getElementById('ios').style.display='';
+    if (os == 'win10')
+      document.getElementById('win10').style.display='';
+    if (os == 'windows')
+      document.getElementById('windows').style.display='';
+    if (os == 'js')
+      document.getElementById('js').style.display='';
+    if (os == 'dos')
+      document.getElementById('dos').style.display='';
+    if (os == 'linux' || os == 'osx' || os == 'windows')
+      document.getElementById('console').style.display='';
+    document.getElementById('switch').innerHTML = os == 'windows' ? '/C' : '-C';
+  }
+  function init()
+  {
+    var sel = document.getElementById('sel');
+    sel.value = '';
+    whatOS(sel);
+  }
+--></script>
+</head>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="b66a1a7829675e72e55aa360-"></script><body style='background-color:#d0e0ff;font-family:Arial,Helvetica,TimesNR' onLoad=javascript:init()>
+<table class=frame><tr><td>
+
+<table style='width:100%'>
+<tr><td class=ctd>
+<img width=64 height=64 src='adv550.png'><br>
+<a href='adv550.png'>Suggested browser mode icon</a>
+</td>
+<td>
+<h2 class=centered style='margin:0'>Adv550, version September 18, 1984</h2>
+<h4 class=centered style='margin:3px'>This is Adv550 built from Dave
+Platt's<br> Honeywell A-code source dated<br>September 18, 1984.</h4>
+</td>
+<td class=ctd>
+<img width=64 height=64 src='adv550_console.png'><br>
+<a href='adv550_console.png'>Suggested console mode icon</a>
+</td>
+</tr>
+</table>
+<tr>
+<td>
+&nbsp;<br>
+<p>Unlike other implementations of adv550, this version is build from unmodified
+Platt's Honeywell A-code source and preserves all text formatting features of
+the original. Reconstructed sources of Platt's original A-code system are also
+available at http://mipmip.org/orig550/</p>
+<hr>
+<h3>Play it now</h3>
+You can play Adv550 right now, either
+<a href="/adv550/adv550.php">on a cloud server</a> or,
+if you are using a robust modern browser,
+<a href="/adv550/adv550.html">on your local machine</a> (1.8 MB).
+<br>&nbsp;<br>
+The local version works well with up-to-date Firefox, Chrome, Safari and
+MS Edge, though other browsers may not cope and some ad- and
+popup-blockers block it for some reason. It runs strictly locally,
+with no further network access &ndash; games are saved in your browser's
+local storage space. You can save the page locally too, and later just
+point the same browser at the saved html file to continue playing.
+<hr>
+<h3>Pre-built versions</h3>
+<table><tr><td style='vetical-align:top'>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="b66a1a7829675e72e55aa360-"></script><select id=sel class=italic onchange='javascript:whatOS(this)'>
+<option style='font-style: italic' value='' selected>Please select your operating system</option>
+<option style='font-style: regular' value=js>HTML/Javascript</option>
+<option style='font-style: regular' value=linux>Linux</option>
+<option style='font-style: regular' value=osx>Apple Mac OS X</option>
+<option style='font-style: regular' value=win10>Microsoft Windows 10</option>
+<option style='font-style: regular' value=windows>Microsoft Windows XP to 8.1</option>
+<option style='font-style: regular' value=dos>Microsoft DOS emulator</option>
+</select></td>
+<td>&nbsp;</td>
+<td>
+<div id=js style='display:none'>
+Thanks to the magic of
+<a href="https://kripken.github.io/emscripten-site/">
+Emscripten</a>, there is now a pure
+HTML/Javascript version which in theory should run
+locally on your machine in any robust modern browser. It
+works fine in up to date Firefox, MS Edge, Safari and Chrome (including
+tablets, though on smaller ones virtual keyboard may take
+too much screen space), but note that some ad- and popup-blockers
+take dislike to it for some reason. You can either
+kick it off straight away via <a href="/adv550/adv550.html">adv550.html</a> (1.8 MB) and
+then save the page at any stage, or you can download the zipped
+version <a href="/adv550/adv550h.zip">adv550h.zip</a> (390.7 KB),
+unzip it and point your browser at the resulting adv550.html file.
+</div>
+<div id=linux style='display:none'>
+A unified Linux console/browser build
+<a href="/adv550/adv550.tgz">adv550.tgz</a> (300.9 KB) with command editing,
+defaulting to browser-based display
+(<i>but if you are using Firefox or Chrome, you may prefer
+the much simpler HTML/Javascript version</i>).
+</div>
+<div id=osx style='display:none'>
+Mac OS X (10.4 upwards) Intel only
+<a href="/adv550/Adv550.dmg">Adv550.dmg</a> (735.3 KB) browser and console
+versions as separate apps.
+<br>PowerPC Macs can use a less fancy package of universal build
+<a href="/adv550/Adv550ppc.dmg">Adv550ppc.dmg</a> (245.3 KB)
+&ndash; sorry, I cannot build PPC executables any more.
+</div>
+<div id=win10 style='display:none'>
+On Windows 10 you need to use the new MS Edge browser with
+the HTML/Javascrip version of the game. You can either
+kick it off straight away via <a href="/adv550/adv550.html">adv550.html</a> (1.8 MB) with
+command editing, and then save
+the page at any stage, or you can download the zipped version
+<a href="/adv550/adv550h.zip">adv550h.zip</a> (390.7 KB),
+unzip it and point your browser at the resulting adv550.html file.
+</div>
+<div id=windows style='display:none'>
+Windows installer <a href="/adv550/adv550w.exe">adv550w.exe</a> (871.1 KB) for
+an executable capable of browser or console display &ndash; the
+display choice is offered as a part of the installation process.
+</div>
+<div id=dos style='display:none'>
+Zipped windows-unaware MSDOS executable
+<a href="/adv550/adv550.zip">adv550.zip</a> (259.2 KB) with no command
+line editing. For use only on true DOS machines or under
+DOS emulators (e.g. DOSBOX).
+</div>
+<span id=console style='display:none'>Console mode can be forced
+by adding <span id=switch>-C</span> to command line
+invocation. See the bundled README file for more details.
+</span>
+</td></tr></table>
+</td></tr>
+<tr><td>
+<hr>
+<h3>Game sources</h3>
+<p>The gzipped tarball
+<a href="/adv550/adv550a.tgz">adv550a.tgz</a> (83.9 KB) contains
+the A-code sources of Adv550.
+Follow <a href='/acode/a-build.html'>this link</a> for an
+explanation of the process of creating a game executable from its A-code
+source. Even if you don't need things being explained to you, you may still
+need to pick up the the C sources of the <b>acdc</b>
+translator and of the A-code <b>kernel</b>. Both are to be
+found within this gzipped tarball:
+<a href="/acode/acode-12.74.tgz">acode-12.74.tgz</a> (1.0 MB)
+</td></tr>
+<tr><td>
+<hr>
+<h3>Derived C sources</h3>
+<p>The gzipped tarball <a href="/adv550/adv550c.tgz">adv550c.tgz</a> (241.6 KB) contains the ANSI C
+source files and header files, derived by my <b>acdc</b> A-code-to-C
+translator from the Adv550 A-code source. The basic build is trivial: just
+compile and link the lot using an ANSI C compiler, and you'll have a fully
+functional adv550 executable, defaulting to browser display. However, in the
+console mode (as opposed to the browser one) this executable won't support
+command history or editing, nor will it be windows-aware. Follow
+<a href='/acode/c-build.html'> this link</a> if you need instructions for
+building less &quot;dumb&quot; console executables from the same C source.</p>
+</td></tr>
+</table>
+
+<table class=frame>
+<tr><td colspan=2><hr></td></tr>
+<tr><td class=ltd><a href='../downloads.html'>To the Adventure downloads page</a><br><a href='/'>To the Mipmip home page</a></td>
+<td class=rtd><a href='/gbk.html'>Feel free to leave a comment!</a><br>
+Mike Arnautov (04 December 2017)</td></tr>
+</table>
+</td></tr></table><br>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="b66a1a7829675e72e55aa360-" defer=""></script></body>
+</html>
