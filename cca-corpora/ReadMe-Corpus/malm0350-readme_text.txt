@@ -1,0 +1,1 @@
+COLORS WHITE YELLOW BLUE BLACK CYANWelcome to COLOSSAL CAVE ADVENTURE!(The Original Computerized Adventure Game)Original game by Willie Crowther and Don WoodsThis version adapted using the Adventure Game Toolkit by David MalmbergEND OF FILE
